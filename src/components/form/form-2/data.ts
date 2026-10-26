@@ -7,15 +7,15 @@
 */
 
 export const defaultData = {
-  heading: "Request a callback",
+  heading: "Request contact",
   nameLabel: "Full name",
   namePlaceholder: "Enter your full name",
   emailLabel: "Email address",
   emailPlaceholder: "Enter your email address",
   phoneLabel: "Phone number",
   phonePlaceholder: "Enter your phone number",
-  educationLabel: "Last education",
-  educationPlaceholder: "Enter your last education",
+  educationLabel: "Order or product question",
+  educationPlaceholder: "Add a product or order reference if relevant",
   addressLabel: "Address",
   addressPlaceholder: "Enter your address",
   messageLabel: "Message",
@@ -23,8 +23,8 @@ export const defaultData = {
   showName: "true",
   showEmail: "true",
   showPhone: "true",
-  showEducation: "true",
+  showEducation: "false",
   showAddress: "true",
   showMessage: "true",
-  buttonLabel: "Request callback",
+  buttonLabel: "Send message",
 };

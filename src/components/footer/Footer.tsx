@@ -8,7 +8,6 @@
 import { client } from "@/app/api/lib/auth";
 
 import { FooterPreview, hydrateFooter } from "./FooterIndex";
-import FooterSignature from "./FooterSignature";
 import FooterVisibility from "./FooterVisibility";
 type FooterRecord = { key: "site"; variant: string; data: Record<string, unknown> };
 export default async function Footer() {
@@ -21,7 +20,6 @@ export default async function Footer() {
       <FooterVisibility disabledPaths={data.disabledPaths}>
         <FooterPreview data={data} />
       </FooterVisibility>
-      <FooterSignature />
     </>
   );
 }

@@ -38,7 +38,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const title = setting?.title || "NexaMart";
   const description =
     setting?.description ||
-    "NexaMart is an online business platform serving customers across Bangladesh with IELTS preparation, study-abroad guidance, and TPC Kids Spoken English.";
+    "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.";
   const images = setting?.socialImage ? [setting.socialImage] : undefined;
   return {
     metadataBase: getCanonicalAppUrl(),
@@ -46,7 +46,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description,
     applicationName: "NexaMart",
     icons: { icon: "/Logo.png" },
-    appleWebApp: { capable: true, statusBarStyle: "default", title: "NexaMart" },
+    appleWebApp: { capable: true, statusBarStyle: "default", title: "NxMart" },
     formatDetection: { telephone: false },
     openGraph: {
       title,

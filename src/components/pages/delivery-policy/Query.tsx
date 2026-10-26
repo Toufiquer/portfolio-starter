@@ -9,7 +9,6 @@
 import { Truck } from "lucide-react";
 
 import { iconMap } from "@/components/all-icons/all-icons";
-import { Button } from "@/components/ui/button";
 
 import {
   defaultDataDeliveryPolicy,
@@ -53,27 +52,22 @@ const QueryDeliveryPolicy = ({ data }: DeliveryPolicyProps) => {
             <div className="mt-6 flex flex-wrap gap-2">
               <a
                 className="inline-flex items-center gap-1 rounded-sm bg-lime-200 px-2.5 py-1.5 text-[0.8rem] font-medium text-lime-950 transition duration-700 hover:bg-lime-300"
-                href={`https://wa.me/${pageData.supportEmail.replace(/\D/g, "").replace(/^0/, "880")}`}
+                href={`https://wa.me/${pageData.supportPhone.replace(/\D/g, "").replace(/^0/, "880")}`}
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 {iconMap.MessageCircle} Chat on WhatsApp
               </a>
-              <Button
-                className="cursor-pointer bg-amber-100 text-amber-950 transition duration-700 hover:bg-amber-200"
-                size="sm"
-                type="button"
-                variant="outline"
-              >
-                {iconMap.Package} Track delivery
-              </Button>
+              <a className="inline-flex items-center gap-1 rounded-sm bg-amber-100 px-2.5 py-1.5 text-[0.8rem] font-medium text-amber-950 transition hover:bg-amber-200" href={`mailto:${pageData.supportEmail}`}>
+                {iconMap.Mail} Email NexaMart
+              </a>
             </div>
           </div>
           <aside className="grid content-start gap-3 rounded-sm border border-[#eadfca] bg-amber-50/50 p-4">
             <span className="text-amber-700">
               <Truck size={16} />
             </span>
-            <p className="text-xl font-semibold text-stone-900">Delivery information, timing, tracking, and support.</p>
+            <p className="text-xl font-semibold text-stone-900">Delivery details have not been provided by NexaMart.</p>
             <p className="text-sm leading-6 text-stone-600">{pageData.sections[0]?.description}</p>
           </aside>
         </div>

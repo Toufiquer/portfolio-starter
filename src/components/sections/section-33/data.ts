@@ -40,24 +40,16 @@ export interface Section33Props {
 export const defaultDataSection33: Section33Data = {
   id: "section-uid-33",
   pageUid: "section-uid-33",
-  pageName: "NexaMart Programs",
-  badgeText: "Made for learners in Bangladesh",
+  pageName: "NexaMart",
+  badgeText: "Online shopping across Bangladesh",
   showEyebrow: true,
-  titleLine1: "Learn Online with",
+  titleLine1: "Shop online with",
   titleLine2: "NexaMart",
-  subtitle:
-    "Prepare for IELTS, explore study-abroad opportunities, and help kids build spoken English confidence from anywhere.",
-  stats: [
-    { id: 1, value: "IELTS", label: "Preparation" },
-    { id: 2, value: "Study", label: "Abroad guidance" },
-    { id: 3, value: "TPC Kids", label: "Spoken English" },
-    { id: 4, value: "Online", label: "Across Bangladesh" },
-  ],
+  subtitle: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
+  stats: [],
   features: [
-    { id: 1, icon: "ti-world", label: "Learn from anywhere" },
-    { id: 2, icon: "ti-shield-check", label: "Clear, practical guidance" },
-    { id: 3, icon: "ti-bolt", label: "Focused learning support" },
-    { id: 4, icon: "ti-server", label: "Convenient online access" },
+    { id: 1, icon: "ti-world", label: "Online shopping" },
+    { id: 2, icon: "ti-shield-check", label: "Across Bangladesh" },
   ],
 };
 export const defaultData = defaultDataSection33;

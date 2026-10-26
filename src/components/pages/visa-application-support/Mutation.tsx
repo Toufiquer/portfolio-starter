@@ -397,7 +397,7 @@ const MutationVisaApplicationSupport = ({ data, onChange }: VisaApplicationSuppo
 
             <div className={cardClass}>
               <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.16em] text-slate-500">
-                <MapPinned className="h-4 w-4" /> Actions and TestPrep Center contact
+                <MapPinned className="h-4 w-4" /> Page actions and contact
               </h3>
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="space-y-2">

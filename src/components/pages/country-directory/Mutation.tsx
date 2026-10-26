@@ -154,7 +154,7 @@ const MutationCountryDirectory = ({ data, onChange }: CountryDirectoryFormProps)
         <div className="flex items-center gap-3 border-b border-[#eadfca] p-4">
           <div className="rounded-sm bg-amber-100 p-2 text-amber-800">{iconMap.Globe}</div>
           <div>
-            <h2 className="text-xl font-bold text-stone-900">Edit Embassy Countries Page</h2>
+            <h2 className="text-xl font-bold text-stone-900">Edit Reusable Directory Page</h2>
             <p className="text-sm text-stone-600">Edit country names, flag images, regions, and popup descriptions.</p>
           </div>
         </div>
@@ -333,7 +333,7 @@ const MutationCountryDirectory = ({ data, onChange }: CountryDirectoryFormProps)
                       onChange={(event) => updateCountry(country.id, "description", event.target.value)}
                       rows={6}
                       className="min-h-36 w-full resize-y rounded-sm border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition focus:border-blue-500"
-                      placeholder="Add useful country, embassy, visa, or consular information..."
+                      placeholder="Add confirmed information for this directory..."
                     />
                   </div>
                 </div>

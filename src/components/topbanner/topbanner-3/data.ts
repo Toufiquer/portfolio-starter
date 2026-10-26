@@ -25,8 +25,8 @@ export type TopBannerThreeData = {
 export const defaultData: TopBannerThreeData = {
   variant: "topbanner-3",
   isVisible: true,
-  text: "Start learning online with IELTS preparation, study-abroad guidance, and TPC Kids Spoken English.",
-  ctaLabel: "Request a Consultation",
+  text: "Shop online with NexaMart, serving customers across Bangladesh.",
+  ctaLabel: "Contact us",
   ctaUrl: importPageRoutes.contact.path,
   buttonVisible: true,
   background: "#2563eb",

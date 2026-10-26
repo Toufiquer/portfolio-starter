@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -80,7 +82,7 @@ export const defaultBlogTopic: Omit<BlogTopic, "id"> = { label: "New topic" };
 
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 
-export const defaultDataVisaInsights: IVisaInsightsData = {
+const defaultDataVisaInsightsSeed: IVisaInsightsData = {
   pageUid: "visa-insights-uid",
   pageName: "NexaMart Guides",
   heroEyebrow: "NexaMart Guides",
@@ -204,3 +206,6 @@ export const defaultDataVisaInsights: IVisaInsightsData = {
   accentColor: "#0f766e",
   accentDarkColor: "#123047",
 };
+
+
+export const defaultDataVisaInsights = neutralizeTemplateData(defaultDataVisaInsightsSeed);

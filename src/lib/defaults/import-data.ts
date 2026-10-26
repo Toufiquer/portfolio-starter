@@ -7,25 +7,15 @@
 
 export type ImportPageVariant =
   | "all-home"
-  | "ielts-preparation"
-  | "kids-spoken-english"
   | "all-about-us"
   | "all-contact-us"
-  | "all-frequently-ask-questions"
-  | "all-privacy"
-  | "all-refund"
-  | "all-team-member"
-  | "all-terms"
-  | "security"
-  | "cookie-policy";
+  | "all-frequently-ask-questions";
 export type ImportSidebarDefault = { name: string; url: string; icon: string; children?: ImportSidebarDefault[] };
 export type ImportPageDefault = { title: string; path: string; description: string; variant: ImportPageVariant };
 
 /** Public page paths created by the data importer and reused by site navigation defaults. */
 export const importPageRoutes = {
   home: { label: "Home", path: "/" },
-  ielts: { label: "IELTS Preparation", path: "/ielts-preparation" },
-  kidsSpokenEnglish: { label: "TPC Kids Spoken English", path: "/kids-spoken-english" },
   about: { label: "About NexaMart", path: "/about-us" },
   contact: { label: "Contact us", path: "/contact-us" },
   faq: { label: "Frequently Asked Questions", path: "/frequently-ask-questions" },
@@ -92,73 +82,25 @@ export const pageDefaults: ImportPageDefault[] = [
   {
     title: "NexaMart Home",
     path: importPageRoutes.home.path,
-    description: "NexaMart online services for IELTS preparation, study-abroad guidance, and TPC Kids Spoken English.",
+    description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
     variant: "all-home",
-  },
-  {
-    title: "IELTS Preparation",
-    path: importPageRoutes.ielts.path,
-    description: "Online IELTS preparation from NexaMart.",
-    variant: "ielts-preparation",
-  },
-  {
-    title: "TPC Kids Spoken English",
-    path: importPageRoutes.kidsSpokenEnglish.path,
-    description: "Online spoken-English learning for young learners in Bangladesh.",
-    variant: "kids-spoken-english",
   },
   {
     title: "About NexaMart",
     path: importPageRoutes.about.path,
-    description: "Learn about our approach and purpose.",
+    description: "Learn about NexaMart, an online shopping platform in Bangladesh.",
     variant: "all-about-us",
   },
   {
     title: "Contact us",
     path: importPageRoutes.contact.path,
-    description: "Contact details, map, and message form.",
+    description: "Contact NexaMart by phone, WhatsApp, or email.",
     variant: "all-contact-us",
   },
   {
     title: "Frequently Asked Questions",
     path: importPageRoutes.faq.path,
-    description: "Answers to frequently asked questions.",
+    description: "Contact NexaMart with questions about online shopping.",
     variant: "all-frequently-ask-questions",
-  },
-  {
-    title: "Privacy Policy",
-    path: importPageRoutes.privacy.path,
-    description: "Our privacy policy.",
-    variant: "all-privacy",
-  },
-  {
-    title: "Refund Policy",
-    path: importPageRoutes.refund.path,
-    description: "Our refund policy.",
-    variant: "all-refund",
-  },
-  {
-    title: "Security",
-    path: importPageRoutes.security.path,
-    description: "How we protect our website and services.",
-    variant: "security",
-  },
-  {
-    title: "Cookie Policy",
-    path: importPageRoutes.cookiePolicy.path,
-    description: "How we use cookies and your choices.",
-    variant: "cookie-policy",
-  },
-  {
-    title: "Team Members",
-    path: importPageRoutes.teamMembers.path,
-    description: "Learn about NexaMart's online approach.",
-    variant: "all-team-member",
-  },
-  {
-    title: "Terms and Conditions",
-    path: importPageRoutes.terms.path,
-    description: "Our terms and conditions.",
-    variant: "all-terms",
   },
 ];

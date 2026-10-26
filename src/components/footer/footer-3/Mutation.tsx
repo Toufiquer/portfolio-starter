@@ -97,6 +97,14 @@ export default function Mutation({
             />
           </label>
           <label>
+            Email
+            <input
+              className={input}
+              onChange={(event) => setData({ ...data, email: event.target.value })}
+              value={data.email}
+            />
+          </label>
+          <label>
             Facebook Page URL
             <input
               className={input}
@@ -105,7 +113,7 @@ export default function Mutation({
             />
           </label>
           <label>
-            TPC Kids Group URL
+            Facebook Group URL
             <input
               className={input}
               onChange={(event) => setData({ ...data, facebookGroupUrl: event.target.value })}

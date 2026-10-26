@@ -8,13 +8,13 @@
 
 export const defaultData = {
   title: "Let’s talk",
-  intro: "NexaMart সম্পর্কে আপনার প্রশ্ন বা সহায়তার অনুরোধ পাঠান; আমাদের টিম দ্রুত আপনার সাথে যোগাযোগ করবে।",
+  intro: "Send NexaMart a question or request for help with online shopping.",
   emailLabel: "Email",
   email: "example@gmail.com",
   addressLabel: "Address",
-  address: "Online across Bangladesh",
+  address: "",
   locationLabel: "Location",
-  location: "Online across Bangladesh",
+  location: "Across Bangladesh",
   mapUrl: "",
   nameLabel: "Name",
   namePlaceholder: "Enter your name",

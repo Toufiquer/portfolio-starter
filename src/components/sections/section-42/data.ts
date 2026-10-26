@@ -30,13 +30,10 @@ export interface Section42Props {
 
 export const defaultDataSection42: Section42Data = {
   id: "section-uid-42",
-  title: "Study in the United Kingdom from Bangladesh for Higher Education",
-  paragraphs: [
-    "The United Kingdom may be one option for students exploring overseas study. Compare courses, costs, learning format, location, and personal suitability before making a decision.",
-    "Admission and student-visa requirements, funding evidence, work rules, and post-study options vary by institution and immigration rules. Confirm current information directly with the relevant official sources.",
-  ],
-  imageUrl: "/images/all-pages-placeholder.png",
-  imageAlt: "Study destination placeholder image",
+  title: "",
+  paragraphs: [],
+  imageUrl: "",
+  imageAlt: "",
   backgroundColor: "#f6f7f9",
   headingColor: "#252d8f",
   textColor: "#202641",

@@ -121,7 +121,7 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   "all-home": {
     defaultData: home as unknown as AllPageData,
     title: "NexaMart Home",
-    description: "The main landing page for IELTS, study-abroad, and kids' spoken-English services",
+    description: "The main landing page for NexaMart online shopping in Bangladesh",
     Mutation: ({ data, onChange }) => (
       <HomeMutation
         data={data as unknown as typeof home}
@@ -132,8 +132,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "ielts-preparation": {
     defaultData: ieltsPreparation as unknown as AllPageData,
-    title: "IELTS Preparation",
-    description: "An online IELTS preparation page for NexaMart learners",
+    title: "Online Shopping Page Template",
+    description: "Reusable page layout; add confirmed NexaMart content before publishing.",
     Mutation: ({ data, onChange }) => (
       <HomeMutation
         data={data as unknown as typeof ieltsPreparation}
@@ -144,8 +144,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "kids-spoken-english": {
     defaultData: kidsSpokenEnglish as unknown as AllPageData,
-    title: "TPC Kids Spoken English",
-    description: "An online spoken-English course page for young learners in Bangladesh",
+    title: "Online Shopping Page Template",
+    description: "Reusable page layout; add confirmed NexaMart content before publishing.",
     Mutation: ({ data, onChange }) => (
       <HomeMutation
         data={data as unknown as typeof kidsSpokenEnglish}
@@ -157,7 +157,7 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   "company-story": {
     defaultData: companyStory as unknown as AllPageData,
     title: "About NexaMart",
-    description: "A page for NexaMart's purpose, approach, and learner support",
+    description: "A page for confirmed information about NexaMart.",
     Mutation: ({ data, onChange }) => (
       <CompanyStoryMutation
         data={data as unknown as typeof companyStory}
@@ -240,8 +240,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "country-directory": {
     defaultData: countryDirectory as unknown as AllPageData,
-    title: "Country Directory",
-    description: "A searchable embassy-country directory page",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no directory content is published by default.",
     Mutation: ({ data, onChange }) => (
       <CountryDirectoryMutation
         data={data as unknown as typeof countryDirectory}
@@ -252,8 +252,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "about-the-country": {
     defaultData: aboutTheCountry as unknown as AllPageData,
-    title: "NexaMart Programs",
-    description: "A flexible landing page for NexaMart programs and services",
+    title: "NexaMart Information Page",
+    description: "A flexible page for confirmed information about NexaMart online shopping.",
     Mutation: ({ data, onChange }) => (
       <AboutTheCountryMutation
         data={data as unknown as typeof aboutTheCountry}
@@ -264,8 +264,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "visa-requirements": {
     defaultData: visaRequirements as unknown as AllPageData,
-    title: "Student Visa Requirements",
-    description: "A study-abroad planning guide with visa requirements and checklists",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no visa content is published by default.",
     Mutation: ({ data, onChange }) => (
       <VisaRequirementsMutation
         data={data as unknown as typeof visaRequirements}
@@ -276,8 +276,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "visa-services": {
     defaultData: visaServices as unknown as AllPageData,
-    title: "Study Abroad Services",
-    description: "A NexaMart service catalogue for university and student-visa preparation",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no unrelated service content is published by default.",
     Mutation: ({ data, onChange }) => (
       <VisaServicesMutation
         data={data as unknown as typeof visaServices}
@@ -288,8 +288,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "visa-application-support": {
     defaultData: visaApplicationSupport as unknown as AllPageData,
-    title: "Student Visa Preparation",
-    description: "A Bangladesh-focused student-visa preparation guide and checklist",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no visa content is published by default.",
     Mutation: ({ data, onChange }) => (
       <VisaApplicationSupportMutation
         data={data as unknown as typeof visaApplicationSupport}
@@ -300,8 +300,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "visa-consultancy": {
     defaultData: visaConsultancy as unknown as AllPageData,
-    title: "Study Abroad Guidance",
-    description: "A NexaMart page for university and study-abroad planning guidance",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no unrelated service content is published by default.",
     Mutation: ({ data, onChange }) => (
       <VisaConsultancyMutation
         data={data as unknown as typeof visaConsultancy}
@@ -312,8 +312,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "visa-service-catalogue": {
     defaultData: visaServiceCatalogue as unknown as AllPageData,
-    title: "Study Abroad Support Catalogue",
-    description: "An overview of NexaMart's study-abroad preparation support",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no unrelated service content is published by default.",
     Mutation: ({ data, onChange }) => (
       <VisaServiceCatalogueMutation
         data={data as unknown as typeof visaServiceCatalogue}
@@ -324,8 +324,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "visa-insights": {
     defaultData: visaInsights as unknown as AllPageData,
-    title: "NexaMart Guides",
-    description: "A searchable collection of IELTS and study-abroad guidance",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no guide content is published by default.",
     Mutation: ({ data, onChange }) => (
       <VisaInsightsMutation
         data={data as unknown as typeof visaInsights}
@@ -405,10 +405,18 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
 };
 
-export const pageAssets = Object.entries(pageIndex).map(([variant, page]) => ({
-  variant: variant as AllPageKind,
-  ...page,
-}));
+const publishablePageKinds = new Set<AllPageKind>([
+  "all-home",
+  "company-story",
+  "whatsapp-faq",
+  "all-about-us",
+  "all-contact-us",
+  "all-frequently-ask-questions",
+]);
+
+export const pageAssets = Object.entries(pageIndex)
+  .filter(([variant]) => publishablePageKinds.has(variant as AllPageKind))
+  .map(([variant, page]) => ({ variant: variant as AllPageKind, ...page }));
 export const getPageDefinition = (variant: string) => pageIndex[variant as AllPageKind];
 export const hydratePageData = (variant: string, data: Record<string, unknown>): AllPageData | null => {
   const definition = getPageDefinition(variant);

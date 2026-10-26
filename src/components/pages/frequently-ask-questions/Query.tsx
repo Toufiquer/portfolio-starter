@@ -20,35 +20,19 @@ import { defaultData } from "./data";
 const legacyQuestions = [
   {
     question: "What does NexaMart offer?",
-    answer:
-      "NexaMart provides online IELTS preparation, study-abroad guidance, and TPC Kids Spoken English across Bangladesh.",
+    answer: "NexaMart is an online shopping platform serving customers across Bangladesh.",
   },
   {
-    question: "Can I access services from anywhere in Bangladesh?",
-    answer: "Yes. NexaMart delivers its services online, so customers can connect from anywhere in Bangladesh.",
+    question: "Where does NexaMart serve customers?",
+    answer: "NexaMart serves customers across Bangladesh.",
   },
   {
-    question: "Does NexaMart guarantee admission or a visa?",
-    answer:
-      "No. Institutions and immigration authorities make their own decisions. NexaMart provides preparation and guidance, not guaranteed outcomes.",
-  },
-  {
-    question: "How should I check current study-abroad or visa requirements?",
-    answer:
-      "Requirements vary by destination, institution, and applicant. Confirm current information directly with the relevant official sources.",
+    question: "How can I ask about a product or order?",
+    answer: "Contact NexaMart by phone, WhatsApp, email, or Facebook.",
   },
   {
     question: "How can I contact NexaMart?",
     answer: "Call or WhatsApp 01711111111, email example@gmail.com, or use the official Facebook page.",
-  },
-  {
-    question: "Where can I find TPC Kids updates?",
-    answer: "Use the TPC Kids Facebook group at facebook.com/groups/example for group updates.",
-  },
-  {
-    question: "How do I find service details or schedules?",
-    answer:
-      "Contact NexaMart with the service you are interested in. Availability, schedules, and fees are confirmed before you begin.",
   },
 ];
 

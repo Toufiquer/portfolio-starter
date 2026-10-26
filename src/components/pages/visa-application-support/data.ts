@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface BangladeshVisaStat {
   id: string;
   value: string;
@@ -124,7 +126,7 @@ export interface VisaApplicationSupportProps {
 
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 
-export const defaultDataVisaApplicationSupport: IVisaApplicationSupportData = {
+const defaultDataVisaApplicationSupportSeed: IVisaApplicationSupportData = {
   pageUid: "visa-application-support-uid",
   pageName: "Student Visa Preparation",
   heroEyebrow: "Student visa guidance from Bangladesh",
@@ -428,3 +430,6 @@ export const defaultDataVisaApplicationSupport: IVisaApplicationSupportData = {
   accentColor: "#f42a41",
   accentDarkColor: "#006a4e",
 };
+
+
+export const defaultDataVisaApplicationSupport = neutralizeTemplateData(defaultDataVisaApplicationSupportSeed);

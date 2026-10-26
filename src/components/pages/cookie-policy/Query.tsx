@@ -7,7 +7,6 @@
 */
 
 import { iconMap } from "@/components/all-icons/all-icons";
-import { Button } from "@/components/ui/button";
 
 import {
   defaultDataCookiePolicy,
@@ -51,26 +50,21 @@ const CookiePolicyQuery = ({ data }: CookiePolicyProps) => {
             <div className="mt-6 flex flex-wrap gap-2">
               <a
                 className="inline-flex items-center gap-1 rounded-sm bg-lime-200 px-2.5 py-1.5 text-[0.8rem] font-medium text-lime-950 transition duration-700 hover:bg-lime-300"
-                href={`https://wa.me/${pageData.supportEmail.replace(/\D/g, "").replace(/^0/, "880")}`}
+                href={`https://wa.me/${pageData.supportPhone.replace(/\D/g, "").replace(/^0/, "880")}`}
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 {iconMap.MessageCircle} Chat on WhatsApp
               </a>
-              <Button
-                className="cursor-pointer bg-amber-100 text-amber-950 transition duration-700 hover:bg-amber-200"
-                size="sm"
-                type="button"
-                variant="outline"
-              >
-                {iconMap.FileText} Cookie choices
-              </Button>
+              <a className="inline-flex items-center gap-1 rounded-sm bg-amber-100 px-2.5 py-1.5 text-[0.8rem] font-medium text-amber-950 transition hover:bg-amber-200" href={`mailto:${pageData.supportEmail}`}>
+                {iconMap.Mail} Email NexaMart
+              </a>
             </div>
           </div>
           <aside className="grid content-start gap-3 rounded-sm border border-[#eadfca] bg-amber-50/50 p-4">
             <span className="text-amber-700">{iconMap.ShieldCheck}</span>
             <p className="text-xl font-semibold text-stone-900">
-              Clear information about cookies and the choices available to visitors.
+              Cookie details have not been provided by NexaMart.
             </p>
             <p className="text-sm leading-6 text-stone-600">{pageData.sections[0]?.description}</p>
           </aside>
@@ -113,16 +107,16 @@ const CookiePolicyQuery = ({ data }: CookiePolicyProps) => {
       </section>
       <section className="border-x border-[#eadfca] border-t">
         <div className="mx-auto max-w-7xl p-4">
-          <p className="text-xs font-semibold tracking-[0.14em] text-amber-800 uppercase">Cookie support</p>
+          <p className="text-xs font-semibold tracking-[0.14em] text-amber-800 uppercase">NexaMart</p>
           <h2 className="mt-1 text-xl font-semibold text-stone-900">{pageData.contactTitle}</h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-stone-600">{pageData.contactDescription}</p>
           <a
             className="mt-3 inline-block break-all text-sm font-medium text-amber-800 underline"
-            href={`https://wa.me/${pageData.supportEmail.replace(/\D/g, "").replace(/^0/, "880")}`}
+            href={`https://wa.me/${pageData.supportPhone.replace(/\D/g, "").replace(/^0/, "880")}`}
             rel="noopener noreferrer"
             target="_blank"
           >
-            WhatsApp: {pageData.supportEmail}
+            WhatsApp: {pageData.supportPhone}
           </a>
         </div>
       </section>

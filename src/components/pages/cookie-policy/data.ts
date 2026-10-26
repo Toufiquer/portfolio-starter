@@ -21,6 +21,7 @@ export interface ICookiePolicyData {
   contactTitle: string;
   contactDescription: string;
   supportEmail: string;
+  supportPhone: string;
 }
 
 export interface CookiePolicyPayload extends ICookiePolicyData {
@@ -41,37 +42,12 @@ export const defaultDataCookiePolicy: ICookiePolicyData = {
   pageUid: "cookie-policy-uid",
   pageName: "Cookie Policy",
   title: "Cookie Policy",
-  lastUpdatedLabel: "Last updated: Today",
-  sections: [
-    {
-      title: "1. What cookies are",
-      description:
-        "Cookies are small text files placed on your device when you visit a website. They help websites remember information about your visit.",
-    },
-    {
-      title: "2. How NexaMart uses cookies",
-      description: "NexaMart may use cookies to:",
-      items: [
-        "Keep essential website features working.",
-        "Understand how visitors use the website.",
-        "Remember relevant preferences where available.",
-      ],
-    },
-    {
-      title: "3. Managing your choices",
-      description:
-        "Most browsers let you control or delete cookies through their settings. Blocking some cookies may affect how parts of the website work.",
-    },
-    {
-      title: "4. Updates to this policy",
-      description:
-        "NexaMart may update this Cookie Policy when its cookie practices change. Please revisit this page from time to time for the latest information.",
-    },
-  ],
-  contactTitle: "Cookie questions",
-  contactDescription:
-    "For questions about NexaMart's use of cookies, call or WhatsApp 01711111111, or email example@gmail.com.",
+  lastUpdatedLabel: "",
+  sections: [],
+  contactTitle: "Cookie information",
+  contactDescription: "Cookie details have not been provided. Contact NexaMart at example@gmail.com or 01711111111.",
   supportEmail: "example@gmail.com",
+  supportPhone: "01711111111",
 };
 
 export const defaultCookiePolicySection: CookiePolicySection = {

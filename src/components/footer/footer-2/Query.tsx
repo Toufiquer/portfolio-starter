@@ -109,6 +109,12 @@ export default function Query({ data }: { data: FooterTwoData }) {
                 {data.phone}
               </a>
               <a
+                className="w-fit truncate text-stone-600 transition duration-200 hover:text-orange-800"
+                href={`mailto:${data.email}`}
+              >
+                {data.email}
+              </a>
+              <a
                 className="inline-flex items-center gap-2 transition-colors duration-200 hover:text-orange-800"
                 href={`https://wa.me/${data.whatsappNumber.replace(/\D/g, "").replace(/^0/, "880")}`}
                 rel="noopener noreferrer"
@@ -126,10 +132,10 @@ export default function Query({ data }: { data: FooterTwoData }) {
               <div className="flex size-11 items-center justify-center rounded-sm border border-stone-200 bg-white text-stone-800 shadow-md shadow-stone-900/10">
                 <Icon name="Download" />
               </div>
-              <h2 className="text-xl font-bold text-stone-950">Stay connected with NexaMart</h2>
+              <h2 className="text-xl font-bold text-stone-950">Stay connected with NxMart</h2>
             </div>
             <p className="mt-2 text-sm leading-6 text-stone-600">
-              Install the app for quicker access to NexaMart online services.
+              Install the app for quicker access to NexaMart online shopping.
             </p>
             <InstallButton />
           </aside>
@@ -201,7 +207,7 @@ export default function Query({ data }: { data: FooterTwoData }) {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                TPC Kids Facebook Group
+                Facebook Group
               </a>
             </div>
           </div>

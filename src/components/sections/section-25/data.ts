@@ -26,20 +26,20 @@ export const defaultDataSection25: Section25Data = {
   id: "section-uid-25",
   cards: [
     {
-      title: "Focused Practice",
-      description: "Build a practical study routine around the IELTS skills you want to strengthen.",
+      title: "Online shopping",
+      description: "NexaMart is an online shopping platform.",
       iconName: "FileText",
       gradient: "from-blue-500 to-blue-600",
     },
     {
-      title: "Clear Next Steps",
-      description: "Use your practice to identify priorities and plan the next stage of preparation.",
+      title: "Across Bangladesh",
+      description: "NexaMart serves customers across Bangladesh.",
       iconName: "Target",
       gradient: "from-green-500 to-green-600",
     },
     {
-      title: "Useful Resources",
-      description: "Ask about the learning resources and guidance available for your selected service.",
+      title: "Contact NexaMart",
+      description: "Reach us by phone, WhatsApp, email, or Facebook.",
       iconName: "BookOpen",
       gradient: "from-purple-500 to-purple-600",
     },

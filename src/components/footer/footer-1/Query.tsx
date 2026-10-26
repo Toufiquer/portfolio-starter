@@ -117,11 +117,14 @@ export default function Query({ data }: { data: FooterOneData }) {
             >
               {data.phone}
             </a>
+            <a className="w-fit transition duration-700 hover:opacity-100" href={`mailto:${data.email}`}>
+              {data.email}
+            </a>
             <a className="w-fit transition duration-700 hover:opacity-100" href={data.facebookUrl} rel="noopener noreferrer" target="_blank">
               Facebook Page
             </a>
             <a className="w-fit transition duration-700 hover:opacity-100" href={data.facebookGroupUrl} rel="noopener noreferrer" target="_blank">
-              TPC Kids Facebook Group
+              Facebook Group
             </a>
           </div>
         )}

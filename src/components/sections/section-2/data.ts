@@ -8,9 +8,8 @@
 
 export const defaultDataSection2 = {
   id: "section-uid-2",
-  heading: "Learn with confidence, from anywhere.",
-  description:
-    "NexaMart brings IELTS preparation, study-abroad guidance, and TPC Kids Spoken English online to learners across Bangladesh.",
+  heading: "Online shopping across Bangladesh.",
+  description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
   paddingX: "0",
   paddingY: "0",
 };

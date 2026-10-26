@@ -8,7 +8,7 @@
 
 /*
 |-----------------------------------------
-| TestPrep Center creamy global study hero
+| NexaMart online shopping hero
 |-----------------------------------------
 */
 
@@ -130,7 +130,7 @@ export function TextDemoHero({
   banglaFirstLine = "স্বপ্ন আপনার,",
   banglaSecondLine = "সঠিক পথ দেখানোর দায়িত্ব আমাদের।",
   stampValue = "16",
-  stampText = "YEARS OF TRUST • YEARS OF TRUST •",
+  stampText = "ONLINE SHOPPING • NEXAMART • BANGLADESH •",
   paddingX = 0,
   paddingY = 0,
 }: TextDemoHeroProps = {}) {
@@ -147,7 +147,7 @@ export function TextDemoHero({
   const submitConsultation = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setShowDemoModal(true);
-    toast.info("Demo modal opened. Consultation submission will be connected later.");
+    toast.info("Enquiry preview opened. Contact NexaMart at 01711111111.");
   };
 
   return (
@@ -348,8 +348,8 @@ export function TextDemoHero({
             >
               <div className="mb-4 flex items-center justify-between gap-3">
                 <div>
-                  <p className="text-sm font-black text-slate-950">Request a Consultation</p>
-                  <p className="mt-0.5 text-xs text-slate-500">Tell us about your study goals.</p>
+                  <p className="text-sm font-black text-slate-950">Contact NexaMart</p>
+                  <p className="mt-0.5 text-xs text-slate-500">Ask us about online shopping.</p>
                 </div>
                 <span className="grid h-10 w-10 place-items-center rounded-full bg-[#cf0a2c]/10 text-[#cf0a2c]">
                   <Send className="h-4 w-4" />
@@ -390,12 +390,12 @@ export function TextDemoHero({
                 </label>
 
                 <label className="relative">
-                  <span className="sr-only">Study destination</span>
+                  <span className="sr-only">Your question</span>
                   <MapPin className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
                   <input
                     required
                     type="text"
-                    placeholder="Study destination"
+                    placeholder="Your question"
                     value={consultationForm.studyDestination}
                     onChange={(event) =>
                       setConsultationForm((current) => ({ ...current, studyDestination: event.target.value }))
@@ -410,7 +410,7 @@ export function TextDemoHero({
                 className="mt-3 inline-flex h-12 w-full items-center justify-center gap-2 rounded-sm bg-[#cf0a2c] px-5 text-sm font-black text-white shadow-[0_15px_30px_-15px_rgba(207,10,44,0.8)] transition hover:-translate-y-0.5 hover:bg-[#b30927] disabled:cursor-not-allowed disabled:opacity-50"
               >
                 <Send className="h-4 w-4" />
-                Submit Consultation
+                Preview Enquiry
               </button>
             </form>
             {showDemoModal && (
@@ -424,11 +424,10 @@ export function TextDemoHero({
                   <div className="flex items-start justify-between gap-4">
                     <div>
                       <p id="consultation-demo-title" className="text-lg font-black">
-                        Consultation demo modal
+                        Enquiry preview
                       </p>
                       <p className="mt-2 text-sm text-slate-600">
-                        The consultation API is disconnected for now. This placeholder can be replaced with the final
-                        workflow later.
+                        This form is a preview. Contact NexaMart at 01711111111 or example@gmail.com.
                       </p>
                     </div>
                     <button
@@ -442,7 +441,7 @@ export function TextDemoHero({
                   </div>
                   <div className="mt-5 rounded-sm bg-amber-50 p-3 text-xs text-amber-900">
                     {consultationForm.fullName || "Name"} · {consultationForm.mobileWhatsApp || "Mobile number"} ·{" "}
-                    {consultationForm.studyDestination || "Study destination"}
+                    {consultationForm.studyDestination || "Your question"}
                   </div>
                   <button
                     type="button"

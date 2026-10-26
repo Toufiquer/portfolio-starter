@@ -74,10 +74,10 @@ const QueryCompanyStory = ({ data }: CompanyStoryProps) => {
           <aside className="grid content-start gap-3 rounded-sm border border-[#eadfca] bg-amber-50/50 p-4">
             <p className="text-xs font-semibold tracking-[0.14em] text-amber-800 uppercase">{pageData.pageName}</p>
             <p className="text-xl font-semibold text-stone-900">
-              Built around trust, clarity, and dependable delivery.
+              NexaMart is an online shopping platform serving customers across Bangladesh.
             </p>
             <p className="text-sm leading-6 text-stone-600">
-              A concise company story that makes your values and working style easy to understand.
+              Contact NexaMart for confirmed information about online shopping.
             </p>
           </aside>
         </div>

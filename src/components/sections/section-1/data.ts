@@ -22,7 +22,7 @@ export const defaultDataSection1: RichTextData & { id: string } = {
               format: 0,
               mode: "normal",
               style: "",
-              text: "NexaMart: Online IELTS preparation, study-abroad guidance, and TPC Kids Spoken English for learners across Bangladesh.",
+              text: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
               type: "text",
               version: 1,
             },

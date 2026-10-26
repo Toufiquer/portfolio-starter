@@ -17,35 +17,31 @@ export type AboutSection = {
 export const defaultSections: AboutSection[] = [
   {
     id: "purpose",
-    eyebrow: "Our purpose",
+    eyebrow: "About NexaMart",
     showEyebrow: true,
-    title: "Learning opportunities should be accessible from anywhere.",
-    description:
-      "NexaMart helps learners across Bangladesh prepare for IELTS, explore study-abroad options, and build confident spoken English skills online.",
+    title: "Online shopping for customers across Bangladesh.",
+    description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
   },
   {
     id: "learning",
-    eyebrow: "How we support learners",
+    eyebrow: "Our platform",
     showEyebrow: true,
-    title: "Clear guidance for every next step.",
-    description:
-      "Our online support combines focused learning, practical resources, and friendly guidance so students and families can move forward with confidence.",
+    title: "Shop online with NexaMart.",
+    description: "Explore NexaMart online shopping and contact us with questions.",
   },
   {
     id: "programs",
-    eyebrow: "Our programs",
+    eyebrow: "Our service",
     showEyebrow: true,
-    title: "Skills and guidance for ambitious futures.",
-    description:
-      "From IELTS preparation and study-abroad planning to kids' spoken English, TPC creates useful learning paths for different goals and ages.",
+    title: "Online shopping across Bangladesh.",
+    description: "NexaMart provides an online shopping platform for customers across Bangladesh.",
   },
   {
     id: "promise",
-    eyebrow: "Our promise",
+    eyebrow: "Contact",
     showEyebrow: true,
-    title: "Helpful, honest, and learner-focused support.",
-    description:
-      "We make information easier to understand, communicate clearly online, and help each learner choose a practical next step.",
+    title: "Questions about NexaMart?",
+    description: "Call, message, or email NexaMart using the contact details on our Contact page.",
   },
 ];
 
@@ -53,15 +49,14 @@ export const defaultAboutSection: Omit<AboutSection, "id"> = {
   eyebrow: "New section",
   showEyebrow: true,
   title: "New section",
-  description: "Add a short description of how NexaMart supports learners.",
+  description: "Add confirmed information about NexaMart.",
 };
 
 export const defaultData = {
   eyebrow: "About NexaMart",
   showEyebrow: "true",
-  title: "Online learning and guidance for Bangladesh's future learners.",
-  intro:
-    "NexaMart (TPC) is an online business platform offering IELTS preparation, study-abroad guidance, and TPC Kids Spoken English across Bangladesh.",
+  title: "About NexaMart.",
+  intro: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
   image: "/images/all-pages-placeholder.png",
   sectionsJson: JSON.stringify(defaultSections),
   paddingX: "0",

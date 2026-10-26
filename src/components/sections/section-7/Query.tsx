@@ -104,14 +104,14 @@ const ClientSection7: React.FC<Section7Props> = ({ data }) => {
             className="relative"
           >
             <h1 className="text-5xl md:text-7xl font-black text-slate-900 tracking-tight leading-tight">
-              Study in{" "}
+              Shop online with{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">
-                {sectionData.country}
+                NexaMart
               </span>
             </h1>
 
             <div className="absolute -top-6 -right-6 md:-right-12 rotate-12 bg-yellow-400 text-yellow-950 text-xs font-black px-3 py-1.5 rounded-sm shadow-lg border-2 border-white transform hover:rotate-0 transition-transform cursor-default z-20">
-              {sectionData.universitys.length} Research entries
+              {sectionData.universitys.length} records
             </div>
           </motion.div>
 
@@ -122,8 +122,7 @@ const ClientSection7: React.FC<Section7Props> = ({ data }) => {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-500 max-w-2xl mx-auto"
           >
-            Research institutions and courses for {sectionData.country}, then confirm current admission and visa
-            requirements through official sources.
+            NexaMart is an online shopping platform serving customers across Bangladesh. Contact us for information.
           </motion.p>
         </div>
 

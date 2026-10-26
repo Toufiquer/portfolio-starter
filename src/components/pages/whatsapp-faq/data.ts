@@ -38,32 +38,28 @@ export const defaultDataWhatsAppFaq: IWhatsAppFaqData = {
   pageUid: "whatsapp-faq-uid",
   pageName: "WhatsApp FAQ",
   heading: "Ask NexaMart on WhatsApp",
-  whatsappLabel: "Chat with TPC",
+  whatsappLabel: "Chat with NexaMart",
   whatsappNumber: "01711111111",
   faqs: [
     {
-      question: "Can I join IELTS preparation online?",
+      question: "What does NexaMart offer?",
       answer:
-        "Yes. Contact TPC on WhatsApp to discuss your current level, target band score, and available online learning support.",
+        "NexaMart is an online shopping platform serving customers across Bangladesh.",
     },
     {
-      question: "Can you help me plan to study abroad?",
+      question: "Where does NexaMart serve customers?",
       answer:
-        "Yes. TPC provides online guidance for learners who want to understand destinations, applications, and preparation for studying abroad.",
+        "NexaMart serves customers across Bangladesh.",
     },
     {
-      question: "Is there an English-speaking course for children?",
-      answer: "Yes. TPC Kids Spoken English helps young learners practise everyday English communication online.",
-    },
-    {
-      question: "How do I get started?",
+      question: "How can I contact NexaMart?",
       answer:
-        "Send TPC a WhatsApp message with your learning goal—IELTS, study abroad, or kids' spoken English—and the team will guide you to the next step.",
+        "Call or WhatsApp 01711111111, email example@gmail.com, or use the Facebook links on this site.",
     },
   ],
 };
 
 export const defaultWhatsAppFaqItem: WhatsAppFaqItem = {
   question: "New question",
-  answer: "Write a helpful answer for NexaMart customers.",
+  answer: "Add a confirmed answer for NexaMart customers.",
 };

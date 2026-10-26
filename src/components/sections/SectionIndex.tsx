@@ -109,14 +109,14 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-6": {
     defaultData: sectionDefaultsByVariant["section-6"],
-    title: "University profile section",
-    description: "Institution details, programs, stats, and admission CTA",
+    title: "Profile detail section",
+    description: "A configurable profile card with details and a contact action",
     Mutation: mutationRegistry["section-6"],
   },
   "section-7": {
     defaultData: sectionDefaultsByVariant["section-7"],
-    title: "Study destinations section",
-    description: "Filterable universities, courses, and application links by city",
+    title: "Catalog filter section",
+    description: "A filterable listing card template with editable item details",
     Mutation: mutationRegistry["section-7"],
   },
   "section-8": {
@@ -133,8 +133,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-10": {
     defaultData: sectionDefaultsByVariant["section-10"],
-    title: "Student success stories",
-    description: "A vertical reel of university success stories",
+    title: "Custom stories section",
+    description: "A vertical reel of editable story cards",
     Mutation: mutationRegistry["section-10"],
   },
   "section-11": {
@@ -217,14 +217,14 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-24": {
     defaultData: sectionDefaultsByVariant["section-24"],
-    title: "Test benefits section",
+    title: "Highlights section",
     description: "Feature highlights, call-to-action, and performance statistics",
     Mutation: mutationRegistry["section-24"],
   },
   "section-25": {
     defaultData: sectionDefaultsByVariant["section-25"],
-    title: "Practice features section",
-    description: "Feature cards highlighting practice benefits and learning tools",
+    title: "Feature cards section",
+    description: "Feature cards with editable descriptions and icons",
     Mutation: mutationRegistry["section-25"],
   },
   "section-26": {
@@ -235,8 +235,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-27": {
     defaultData: sectionDefaultsByVariant["section-27"],
-    title: "IELTS course plans section",
-    description: "Course pricing cards with levels, features, schedules, and enrollment actions",
+    title: "Product cards section",
+    description: "A card layout that can be configured for confirmed product information",
     Mutation: mutationRegistry["section-27"],
   },
   "section-28": {
@@ -247,26 +247,26 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-29": {
     defaultData: sectionDefaultsByVariant["section-29"],
-    title: "IELTS consultation CTA section",
+    title: "Contact CTA section",
     description: "Call-to-action banner with consultation, demo, and contact details",
     Mutation: mutationRegistry["section-29"],
   },
   "section-30": {
     defaultData: sectionDefaultsByVariant["section-30"],
-    title: "Study abroad services section",
+    title: "Service cards section",
     description: "Service highlights with guidance CTA and destination illustration",
     Mutation: mutationRegistry["section-30"],
   },
   "section-31": {
     defaultData: sectionDefaultsByVariant["section-31"],
-    title: "Study abroad impact section",
+    title: "Information banner section",
     description: "Headline, highlighted message, and placement statistics",
     Mutation: mutationRegistry["section-31"],
   },
   "section-32": {
     defaultData: sectionDefaultsByVariant["section-32"],
-    title: "Success story timeline section",
-    description: "Animated student journeys with responsive timeline storytelling",
+    title: "Custom timeline section",
+    description: "Animated timeline cards with editable labels and descriptions",
     Mutation: mutationRegistry["section-32"],
   },
   "section-33": {
@@ -283,8 +283,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-35": {
     defaultData: sectionDefaultsByVariant["section-35"],
-    title: "Hostinger recommendation banner",
-    description: "Configurable gradient recommendation banner with link and editable colors",
+    title: "Recommendation banner",
+    description: "Configurable banner with link and editable colors",
     Mutation: mutationRegistry["section-35"],
   },
   "section-36": {
@@ -295,8 +295,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-37": {
     defaultData: sectionDefaultsByVariant["section-37"],
-    title: "Study abroad experience hero",
-    description: "Animated bilingual hero with experience badge, calls to action, and theme colors",
+    title: "Animated hero section",
+    description: "Animated hero with editable headline, calls to action, and theme colors",
     Mutation: mutationRegistry["section-37"],
   },
   "section-38": {
@@ -307,70 +307,84 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-39": {
     defaultData: sectionDefaultsByVariant["section-39"],
-    title: "Study abroad guidance section",
+    title: "Service introduction section",
     description: "Image collage and guidance copy with editable content, media, and theme colors",
     Mutation: mutationRegistry["section-39"],
   },
   "section-40": {
     defaultData: sectionDefaultsByVariant["section-40"],
-    title: "Consultation section",
-    description: "Appointment-focused study abroad content with editable actions, media, and colors",
+    title: "Contact information section",
+    description: "Editable contact copy, actions, media, and colors",
     Mutation: mutationRegistry["section-40"],
   },
   "section-41": {
     defaultData: sectionDefaultsByVariant["section-41"],
-    title: "Study destination information section",
-    description: "Educational destination copy with editable paragraphs, image, and colors",
+    title: "Information section",
+    description: "Editable paragraphs, image, and colors",
     Mutation: mutationRegistry["section-41"],
   },
   "section-42": {
     defaultData: sectionDefaultsByVariant["section-42"],
-    title: "United Kingdom study destination section",
-    description: "Study destination copy with editable paragraphs, image, and colors",
+    title: "Information section",
+    description: "Editable paragraphs, image, and colors",
     Mutation: mutationRegistry["section-42"],
   },
   "section-43": {
     defaultData: sectionDefaultsByVariant["section-43"],
-    title: "United Kingdom benefits section",
-    description: "Study destination benefits with editable content, image, and theme colors",
+    title: "Benefits section",
+    description: "Editable content, image, and theme colors",
     Mutation: mutationRegistry["section-43"],
   },
   "section-44": {
     defaultData: sectionDefaultsByVariant["section-44"],
-    title: "United Kingdom student visa section",
-    description: "Visa requirements content with editable checklist items, image, and colors",
+    title: "Checklist section",
+    description: "Editable checklist items, image, and colors",
     Mutation: mutationRegistry["section-44"],
   },
   "section-45": {
     defaultData: sectionDefaultsByVariant["section-45"],
-    title: "United Kingdom visa documents section",
-    description: "Visa document checklist with editable content, image, and colors",
+    title: "Checklist section",
+    description: "Editable checklist content, image, and colors",
     Mutation: mutationRegistry["section-45"],
   },
   "section-46": {
     defaultData: sectionDefaultsByVariant["section-46"],
-    title: "Institution research section",
-    description: "University cards with editable institutions, media, application links, and colors",
+    title: "Card listing section",
+    description: "Cards with editable titles, media, links, and colors",
     Mutation: mutationRegistry["section-46"],
   },
   "section-47": {
     defaultData: sectionDefaultsByVariant["section-47"],
-    title: "United States study destination section",
-    description: "Study destination copy with editable paragraphs, image, and colors",
+    title: "Information section",
+    description: "Editable paragraphs, image, and colors",
     Mutation: mutationRegistry["section-47"],
   },
   "section-48": {
     defaultData: sectionDefaultsByVariant["section-48"],
-    title: "Global consultation hero",
-    description: "Animated globe hero with Bengali messaging, trust stamp, and consultation form",
+    title: "Animated globe section",
+    description: "Animated globe visual with editable messaging and contact form",
     Mutation: mutationRegistry["section-48"],
   },
 };
 
-export const sectionAssets = Object.entries(sectionIndex).map(([variant, section]) => ({
-  variant: variant as SectionVariant,
-  ...section,
-}));
+const nonPublishableSectionKinds = new Set<SectionVariant>([
+  "section-6",
+  "section-7",
+  "section-27",
+  "section-30",
+  "section-41",
+  "section-42",
+  "section-43",
+  "section-44",
+  "section-45",
+  "section-46",
+  "section-47",
+  "section-48",
+]);
+
+export const sectionAssets = Object.entries(sectionIndex)
+  .filter(([variant]) => !nonPublishableSectionKinds.has(variant as SectionVariant))
+  .map(([variant, section]) => ({ variant: variant as SectionVariant, ...section }));
 export const getSectionDefinition = (variant: string) => sectionIndex[variant as SectionVariant];
 export { hydrateSectionData };
 export const sectionChoices = sectionAssets.map(({ variant, title, description }) => ({

@@ -22,6 +22,7 @@ export type FooterTwoData = {
   logoAlt: string;
   showLogo: boolean;
   phone: string;
+  email: string;
   whatsappNumber: string;
   facebookUrl: string;
   facebookGroupUrl: string;
@@ -42,51 +43,37 @@ export const defaultData: FooterTwoData = {
   foreground: "#292524",
   accent: "#b45309",
   brand: "NexaMart",
-  tagline: "Learn, prepare, and move forward from anywhere in Bangladesh.",
-  description:
-    "TPC provides online IELTS preparation, personalized study-abroad guidance, and kids' spoken English courses.",
+  tagline: "Online shopping across Bangladesh.",
+  description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
   logoUrl: "/Logo.png",
   logoAlt: "NexaMart logo",
   showLogo: true,
   phone: "01711111111",
+  email: "example@gmail.com",
   whatsappNumber: "01711111111",
-  facebookUrl: "https://www.facebook.com/example/",
+  facebookUrl: "https://www.facebook.com/example",
   facebookGroupUrl: "https://www.facebook.com/groups/example",
   disabledPaths: ["/dashboard", "/login", "/forgot-password", "/registration"],
   columns: [
     {
-      title: "Programs",
-      links: [
-        { id: "ielts", label: "IELTS Preparation", url: importPageRoutes.ielts.path, visible: true },
-        {
-          id: "kids-spoken",
-          label: "TPC Kids Spoken English",
-          url: importPageRoutes.kidsSpokenEnglish.path,
-          visible: true,
-        },
-      ],
+      title: "Shop",
+      links: [{ id: "shop", label: "Browse shopping", url: importPageRoutes.home.path, visible: true }],
     },
     {
       title: "Explore",
       links: [
         { id: "home", label: "Home", url: importPageRoutes.home.path, visible: true },
-        { id: "about", label: "About NexaMart", url: importPageRoutes.about.path, visible: true },
+        { id: "about", label: "About NxMart", url: importPageRoutes.about.path, visible: true },
         { id: "faq", label: "Frequently Asked Questions", url: importPageRoutes.faq.path, visible: true },
       ],
     },
   ],
   links: [
     { id: "contact", label: "Contact", url: importPageRoutes.contact.path, visible: true },
-    { id: "facebook", label: "Facebook", url: "https://www.facebook.com/example/", visible: true },
+    { id: "facebook", label: "Facebook", url: "https://www.facebook.com/example", visible: true },
   ],
   copyright: `© ${new Date().getFullYear()} NexaMart. All rights reserved.`,
   showLegalBar: true,
   legalBackground: "#f8fafc",
-  legalLinks: [
-    { id: "refund", label: "Refund Policy", url: importPageRoutes.refund.path, visible: true },
-    { id: "privacy", label: "Privacy Policy", url: importPageRoutes.privacy.path, visible: true },
-    { id: "terms", label: "Terms & Conditions", url: importPageRoutes.terms.path, visible: true },
-    { id: "security", label: "Security", url: importPageRoutes.security.path, visible: true },
-    { id: "cookies", label: "Cookie Policy", url: importPageRoutes.cookiePolicy.path, visible: true },
-  ],
+  legalLinks: [],
 };

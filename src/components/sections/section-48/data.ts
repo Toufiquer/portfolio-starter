@@ -24,9 +24,9 @@ export interface Section48Props {
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 export const defaultDataSection48: Section48Data = {
   id: "section-uid-48",
-  banglaFirstLine: "Your learning goal,",
-  banglaSecondLine: "our clear online guidance.",
-  stampValue: "TPC",
-  stampText: "IELTS • STUDY ABROAD • KIDS SPOKEN ENGLISH •",
+  banglaFirstLine: "NexaMart (NxMart)",
+  banglaSecondLine: "Online shopping across Bangladesh.",
+  stampValue: "NxMart",
+  stampText: "ONLINE SHOPPING • NEXAMART • BANGLADESH •",
 };
 export const defaultData = defaultDataSection48;

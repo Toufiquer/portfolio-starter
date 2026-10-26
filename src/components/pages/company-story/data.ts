@@ -35,42 +35,40 @@ export const defaultDataCompanyStory: ICompanyStoryData = {
   pageName: "About NexaMart",
   eyebrow: "About NexaMart",
   showEyebrow: true,
-  title: "A learning partner for IELTS, global education goals, and confident young speakers.",
+  title: "NexaMart online shopping across Bangladesh.",
   subtitle:
-    "NexaMart (TPC) is an online business platform helping customers across Bangladesh prepare for IELTS, explore study-abroad options, and practise spoken English.",
-  primaryAction: "Explore Our Programs",
-  secondaryAction: "Talk to TPC",
+    "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
+  primaryAction: "Shop online",
+  secondaryAction: "Contact NexaMart",
   sections: [
     {
       eyebrow: "Story",
       showEyebrow: true,
       title: "Who we are",
       description:
-        "TPC brings online education and guidance together so learners can take meaningful next steps from wherever they are in Bangladesh.",
-      items: ["Online-first learning support", "Clear, practical communication", "A welcoming learning community"],
+        "NexaMart provides online shopping for customers across Bangladesh.",
+      items: ["Online shopping", "Service across Bangladesh", "NexaMart contact channels"],
     },
     {
       eyebrow: "Mission",
       showEyebrow: true,
-      title: "Make learning opportunities easier to reach",
-      description: "We help learners build English skills and make informed decisions about their academic futures.",
-      items: ["Support IELTS preparation", "Clarify study-abroad pathways", "Develop kids' spoken English confidence"],
+      title: "Online shopping across Bangladesh",
+      description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
+      items: ["Shop online with NexaMart", "Contact NexaMart by phone or WhatsApp", "Connect through Facebook"],
     },
     {
       eyebrow: "Values",
       showEyebrow: true,
-      title: "Guidance learners can trust",
-      description:
-        "We value clear information, thoughtful support, and realistic next steps for every learner and family.",
-      items: ["Clarity before complexity", "Respect for every learner", "Practical, honest support"],
+      title: "NexaMart",
+      description: "Shop online with NexaMart.",
+      items: ["Online shopping", "Across Bangladesh", "Contact NexaMart"],
     },
     {
       eyebrow: "Experience",
       showEyebrow: true,
-      title: "What learners can expect",
-      description:
-        "A focused online experience with approachable communication, useful resources, and guidance that fits each goal.",
-      items: ["Convenient online access", "Goal-focused learning", "Friendly support"],
+      title: "Online shopping with NexaMart",
+      description: "NexaMart is an online shopping platform serving customers across Bangladesh.",
+      items: ["Online shopping", "Across Bangladesh", "Contact by phone, WhatsApp, email, or Facebook"],
     },
   ],
 };

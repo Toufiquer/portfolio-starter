@@ -38,37 +38,11 @@ export interface Section43Props {
 
 export const defaultDataSection43: Section43Data = {
   id: "section-uid-43",
-  title: "Exploring Higher Education in the United Kingdom",
-  introduction:
-    "The United Kingdom may be one option for students exploring overseas study. Compare courses, costs, learning format, location, and personal suitability before making a decision.",
-  benefits: [
-    {
-      id: "benefit-universities",
-      title: "Institution research:",
-      description:
-        "Research institutions and programmes directly to confirm eligibility, course content, costs, and application routes.",
-    },
-    {
-      id: "benefit-research",
-      title: "Course planning:",
-      description:
-        "Compare teaching methods, assessment, facilities, and student support using current information from each institution.",
-    },
-    {
-      id: "benefit-community",
-      title: "Living arrangements:",
-      description:
-        "Research accommodation, cost of living, health cover, and local support before committing to a destination.",
-    },
-    {
-      id: "benefit-work",
-      title: "Student visa rules:",
-      description:
-        "Work rights, visa conditions, and post-study options vary. Confirm current information through official UK government and institution sources.",
-    },
-  ],
-  imageUrl: "/images/all-pages-placeholder.png",
-  imageAlt: "Study destination placeholder image",
+  title: "",
+  introduction: "",
+  benefits: [],
+  imageUrl: "",
+  imageAlt: "",
   backgroundColor: "#f8f9fb",
   headingColor: "#24349a",
   textColor: "#202641",

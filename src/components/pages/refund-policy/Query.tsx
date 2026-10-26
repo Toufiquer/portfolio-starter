@@ -75,9 +75,7 @@ const QueryPage7 = ({ data }: Page7Props) => {
               <p className="mt-5 text-xs font-bold uppercase tracking-[0.2em] text-amber-800">{pageData.eyebrow}</p>
             )}
             <h1 className="mt-7 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">{pageData.title}</h1>
-            <p className="mt-6 text-base leading-8 text-slate-600 sm:text-lg">
-              Clear refund expectations for agreed services and project work.
-            </p>
+            <p className="mt-6 text-base leading-8 text-slate-600 sm:text-lg">{pageData.highlightDescription}</p>
             <p className="mt-7 text-sm font-medium text-slate-500">{pageData.lastUpdatedLabel}</p>
           </div>
           <div className="relative min-h-56 overflow-hidden rounded-sm border border-amber-100 bg-white shadow-[0_18px_50px_rgba(120,83,20,0.08)] sm:min-h-72">
@@ -96,10 +94,8 @@ const QueryPage7 = ({ data }: Page7Props) => {
       <section className="px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[0.9fr_2.1fr]">
           <aside className="h-fit rounded-sm border border-amber-100 bg-white p-6 shadow-[0_14px_40px_rgba(120,83,20,0.06)] lg:sticky lg:top-16">
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-amber-800">Refund guide</p>
-            <p className="mt-3 text-sm leading-6 text-slate-600">
-              Read each section before requesting a refund or cancellation.
-            </p>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-amber-800">NexaMart</p>
+            <p className="mt-3 text-sm leading-6 text-slate-600">{pageData.contactDescription}</p>
             <div className="mt-6 space-y-3">
               {sections.map((section, index) => {
                 const active = activeSection === index;

@@ -64,9 +64,9 @@ const MutationSection48 = ({ data, onChange }: Section48FormProps) => {
       <div className="mx-auto w-full max-w-7xl overflow-hidden rounded-sm border-x border-[#eadfca] bg-white shadow-sm">
         <header className="border-b border-[#eadfca] p-5 sm:p-7">
           <p className="text-xs font-black uppercase tracking-[0.2em] text-[#cf0a2c]">Section 48</p>
-          <h2 className="mt-2 text-2xl font-black">Bangla heading and trust stamp</h2>
+          <h2 className="mt-2 text-2xl font-black">Bangla heading and NexaMart stamp</h2>
           <p className="mt-2 text-sm text-slate-500">
-            Only the Bangla heading and stamp text are editable. The globe, consultation form, layout, and animation
+            Only the Bangla heading and stamp text are editable. The globe, contact form, layout, and animation
             stay fixed.
           </p>
         </header>

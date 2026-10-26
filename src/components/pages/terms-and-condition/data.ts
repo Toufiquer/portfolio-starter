@@ -35,73 +35,10 @@ export const defaultDataPage5: ISection5Data = {
   paddingX: 0,
   paddingY: 0,
   title: "Terms and Conditions",
-  subtitle:
-    "These Terms and Conditions govern the use of NexaMart's online learning and guidance services. Please read them before using a course, consultation, or website feature.",
+  subtitle: "Terms and conditions have not been provided by NexaMart.",
   primaryAction: "",
   secondaryAction: "",
-  highlightTitle: "Our commitment",
-  highlightDescription:
-    "NexaMart aims to keep online learning and guidance clear, fair, secure, and practical for learners, parents, and visitors.",
-  sections: [
-    {
-      eyebrow: "Acceptance",
-      showEyebrow: true,
-      title: "Using NexaMart services",
-      description:
-        "By accessing this website, creating an account, requesting information, or using a NexaMart course or guidance service, you agree to these Terms and Conditions.",
-      items: [
-        "Use our services lawfully and responsibly",
-        "Provide complete and accurate information",
-        "Keep account credentials private and secure",
-      ],
-    },
-    {
-      eyebrow: "Services",
-      showEyebrow: true,
-      title: "Programs, guidance, and access",
-      description:
-        "The selected course, guidance scope, online access, schedule, and support details are confirmed through the relevant NexaMart communication. Availability may vary by program.",
-      items: [
-        "Course and consultation details are shared before service begins",
-        "Learners should provide timely information and responses",
-        "Third-party institutions and platforms have their own terms",
-      ],
-    },
-    {
-      eyebrow: "Payments",
-      showEyebrow: true,
-      title: "Fees and billing",
-      description:
-        "Fees, deposits, and payment schedules are communicated in Bangladeshi Taka (BDT) unless otherwise stated. Access or support may be paused when a required payment remains overdue.",
-      items: [
-        "Payment terms are shared before service begins",
-        "A deposit may be required",
-        "Bank charges and approved third-party costs may apply where relevant",
-      ],
-    },
-    {
-      eyebrow: "Rights and responsibility",
-      showEyebrow: true,
-      title: "Learning materials and learner information",
-      description:
-        "You remain responsible for the information and documents you provide. NexaMart learning materials and website content may not be copied or redistributed without permission.",
-      items: [
-        "Use supplied materials for your own learning",
-        "Ensure you have permission to share documents and content",
-        "Third-party materials remain subject to their own licenses",
-      ],
-    },
-    {
-      eyebrow: "Legal",
-      showEyebrow: true,
-      title: "Changes and governing law",
-      description:
-        "NexaMart may update these terms when services or legal obligations change. These terms are governed by the applicable laws of Bangladesh.",
-      items: [
-        "Material updates apply from the revised date shown on this page",
-        "Questions can be sent through our official support channel",
-        "Call or WhatsApp NexaMart at 01711111111 for support",
-      ],
-    },
-  ],
+  highlightTitle: "Terms information",
+  highlightDescription: "Terms and conditions have not been provided by NexaMart.",
+  sections: [],
 };

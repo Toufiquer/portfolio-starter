@@ -33,16 +33,11 @@ export interface Section31Props {
 
 export const defaultDataSection31: Section31Data = {
   id: "section-uid-31",
-  badgeText: "★ We Are Also Providing",
+  badgeText: "NexaMart",
   headingPrefix: "Online",
-  headingHighlight: "Study Abroad",
-  headingSuffix: "Services",
-  stats: [
-    { number: "TPC", label: "NexaMart" },
-    { number: "IELTS", label: "Preparation" },
-    { number: "Study", label: "Abroad guidance" },
-    { number: "Kids", label: "Spoken English" },
-  ],
+  headingHighlight: "Online Shopping",
+  headingSuffix: "Across Bangladesh",
+  stats: [],
 };
 
 export const defaultData = defaultDataSection31;

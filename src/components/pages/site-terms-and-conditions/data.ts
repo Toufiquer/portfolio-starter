@@ -28,61 +28,9 @@ export const defaultDataSiteTermsAndConditions: ISiteTermsAndConditionsData = {
   pageUid: "site-terms-and-conditions-uid",
   pageName: "NexaMart Terms & Conditions",
   eyebrow: "Terms & Conditions",
-  title: "The rules and responsibilities for using NexaMart's website and services.",
-  subtitle:
-    "These Terms & Conditions explain how NexaMart provides services, outline customer responsibilities, and describe payments, intellectual property, and limitations of liability.",
-  primaryAction: "Read Terms",
-  secondaryAction: "Contact NexaMart",
-  sections: [
-    {
-      eyebrow: "Acceptance",
-      title: "Using the website",
-      description:
-        "By browsing this website, submitting forms, or requesting services from NexaMart, visitors agree to these terms.",
-      items: [
-        "Use the website lawfully",
-        "Provide accurate information",
-        "Stop using the website if terms are not accepted",
-      ],
-    },
-    {
-      eyebrow: "Services",
-      title: "Programs and guidance",
-      description:
-        "NexaMart confirms the selected program or guidance scope, online access, schedule, and next steps through the applicable service communication.",
-      items: [
-        "Program and guidance details are shared before enrolment or service begins",
-        "Schedule or service changes may affect availability or fees",
-        "Learners should provide accurate, timely information where needed",
-      ],
-    },
-    {
-      eyebrow: "Payments",
-      title: "Fees and billing",
-      description:
-        "Fees, payment schedules, and any deposit requirements are shared for the selected online program or guidance service.",
-      items: [
-        "Payment terms are shared before service begins",
-        "Deposits may be required",
-        "Late payments can delay access or service",
-      ],
-    },
-    {
-      eyebrow: "Ownership",
-      title: "Learning materials and content",
-      description:
-        "Learning materials, website content, and third-party resources remain subject to the permissions and terms shared with learners.",
-      items: [
-        "Do not copy or redistribute learning materials without permission",
-        "Learners remain responsible for documents and information they provide",
-        "Third-party tools and institutions follow their own terms",
-      ],
-    },
-    {
-      eyebrow: "Contact",
-      title: "Terms questions and support",
-      description: "Contact NexaMart if you have questions or need clarification about these Terms & Conditions.",
-      items: ["Call or WhatsApp: 01711111111", "Facebook: facebook.com/example"],
-    },
-  ],
+  title: "Terms and Conditions",
+  subtitle: "Terms and conditions have not been provided by NexaMart.",
+  primaryAction: "Contact NexaMart",
+  secondaryAction: "",
+  sections: [],
 };

@@ -7,8 +7,9 @@
 */
 
 import type { HomeData } from "../home/data";
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
 
-export const defaultIeltsPreparationData: HomeData = {
+const ieltsPreparationSeed: HomeData = {
   forceUpdate: "false",
   paddingX: 0,
   paddingY: 0,
@@ -42,7 +43,7 @@ export const defaultIeltsPreparationData: HomeData = {
   ]),
 };
 
-export const defaultKidsSpokenEnglishData: HomeData = {
+const kidsSpokenEnglishSeed: HomeData = {
   forceUpdate: "false",
   paddingX: 0,
   paddingY: 0,
@@ -75,3 +76,6 @@ export const defaultKidsSpokenEnglishData: HomeData = {
     },
   ]),
 };
+
+export const defaultIeltsPreparationData = neutralizeTemplateData(ieltsPreparationSeed);
+export const defaultKidsSpokenEnglishData = neutralizeTemplateData(kidsSpokenEnglishSeed);

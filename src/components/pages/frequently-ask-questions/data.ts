@@ -9,48 +9,25 @@
 export const defaultQuestions = [
   {
     question: "What does NexaMart offer?",
-    answer:
-      "NexaMart offers online IELTS preparation, study-abroad guidance, and TPC Kids Spoken English for learners in Bangladesh.",
+    answer: "NexaMart is an online shopping platform serving customers across Bangladesh.",
   },
   {
-    question: "Are TPC services available online?",
-    answer:
-      "Yes. NexaMart provides its learning and guidance services online, so you can connect from anywhere in Bangladesh.",
+    question: "Where does NexaMart serve customers?",
+    answer: "NexaMart serves customers across Bangladesh.",
   },
   {
-    question: "Who can join an IELTS preparation program?",
-    answer:
-      "Anyone preparing for IELTS can contact TPC to discuss their current level, target score, and the best next step.",
+    question: "How can I ask about a product or order?",
+    answer: "Contact NexaMart by phone, WhatsApp, email, or Facebook.",
   },
   {
-    question: "Can TPC help me plan to study abroad?",
-    answer:
-      "Yes. TPC can help you understand study destinations, applications, documents, and the preparation needed for your study-abroad goal.",
-  },
-  {
-    question: "Does TPC guarantee admission or a visa?",
-    answer:
-      "No. Universities and immigration authorities make their own decisions. TPC provides preparation and guidance, not guaranteed outcomes.",
-  },
-  {
-    question: "What is TPC Kids Spoken English?",
-    answer:
-      "TPC Kids Spoken English is an online course designed to help young learners practise everyday English communication with confidence.",
-  },
-  {
-    question: "How can I speak with NexaMart?",
-    answer:
-      "Call or WhatsApp NexaMart at 01711111111, email example@gmail.com, or connect through the official Facebook page.",
-  },
-  {
-    question: "Where can I join the TPC Kids community?",
-    answer: "You can join the TPC Kids Facebook Group at facebook.com/groups/example for community updates.",
+    question: "How can I contact NexaMart?",
+    answer: "Call or WhatsApp 01711111111, email example@gmail.com, or use the Facebook links on this site.",
   },
 ];
 
 export const defaultData = {
   title: "Frequently Asked Questions",
   intro:
-    "Find clear answers about TPC's online IELTS preparation, study-abroad guidance, and kids' spoken English courses.",
+    "Find answers about NexaMart online shopping and how to contact us.",
   questionsJson: JSON.stringify(defaultQuestions),
 };

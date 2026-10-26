@@ -11,8 +11,8 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "NexaMart",
-    short_name: "TPC",
-    description: "NexaMart online services for customers across Bangladesh.",
+    short_name: "NxMart",
+    description: "NexaMart is an online shopping platform serving customers across Bangladesh.",
     start_url: "/",
     display: "standalone",
     background_color: "#fafafa",

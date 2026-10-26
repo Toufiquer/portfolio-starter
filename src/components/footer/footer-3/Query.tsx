@@ -79,7 +79,7 @@ export default function Query({ data }: { data: FooterThreeData }) {
           <p className="mt-4 max-w-xs text-sm leading-6 opacity-80">{data.description}</p>
         </div>
         <div>
-          <h2 className="font-bold">Destinations</h2>
+          <h2 className="font-bold">Shop</h2>
           <Links links={data.destinations} />
         </div>
         <div>
@@ -97,11 +97,12 @@ export default function Query({ data }: { data: FooterThreeData }) {
               WhatsApp: {data.whatsappNumber}
             </a>
             <a href={`tel:${data.phone.replace(/[^+\d]/g, "")}`}>{data.phone}</a>
+            <a href={`mailto:${data.email}`}>{data.email}</a>
             <a href={data.facebookUrl} rel="noopener noreferrer" target="_blank">
               Facebook Page
             </a>
             <a href={data.facebookGroupUrl} rel="noopener noreferrer" target="_blank">
-              TPC Kids Facebook Group
+              NexaMart Facebook Group
             </a>
           </div>
         </div>
@@ -115,7 +116,7 @@ export default function Query({ data }: { data: FooterThreeData }) {
             <div>
               <h2 className="text-lg font-bold text-stone-900">Take us with you</h2>
               <p className="mt-1 max-w-xl text-sm leading-6 text-stone-600">
-                Install our app for quicker access to NexaMart online services.
+                Install our app for quicker access to NexaMart online shopping.
               </p>
             </div>
           </div>

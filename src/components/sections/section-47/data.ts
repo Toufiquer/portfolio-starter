@@ -35,13 +35,10 @@ export const defaultLayout = {
 
 export const defaultDataSection47: Section47Data = {
   id: "section-uid-47",
-  title: "Study in United States from Bangladesh for Higher Education",
-  paragraphs: [
-    "The United States may be one option for students exploring overseas study. Compare courses, costs, learning format, location, and personal suitability before making a decision.",
-    "Admission and student-visa requirements, funding evidence, work rules, and post-study options vary by institution and immigration rules. Confirm current information directly with the relevant official sources.",
-  ],
-  imageUrl: "/images/all-pages-placeholder.png",
-  imageAlt: "Statue of Liberty and the United States flag against a blue sky",
+  title: "",
+  paragraphs: [],
+  imageUrl: "",
+  imageAlt: "",
   backgroundColor: "#f6f7f9",
   headingColor: "#252d8f",
   textColor: "#202641",

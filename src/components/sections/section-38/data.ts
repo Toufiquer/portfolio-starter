@@ -47,14 +47,12 @@ export const defaultDataSection38: Section38Data = {
   showMissionEyebrow: true,
   missionTitle: "Our",
   missionHighlightedTitle: "Mission",
-  missionDescription:
-    "Our mission is to help learners across Bangladesh access practical online support. NexaMart provides IELTS preparation, study-abroad guidance, and TPC Kids Spoken English so each learner can move forward with confidence.",
+  missionDescription: "NexaMart is an online shopping platform serving customers across Bangladesh.",
   visionEyebrow: "NexaMart",
   showVisionEyebrow: true,
   visionTitle: "Our",
   visionHighlightedTitle: "Vision",
-  visionDescription:
-    "Our vision is to become Bangladesh’s most trusted study-abroad consultancy by making quality international education guidance accessible to students in every part of the country. We aim to connect each student with the right opportunities and help them build a successful global future.",
+  visionDescription: "",
   missionPrimaryImage: "https://placehold.co/720x520/dbeafe/1d4ed8?text=Our+Mission",
   missionTopImage: "https://placehold.co/480x320/e2e8f0/475569?text=Mission+Top",
   missionBottomImage: "https://placehold.co/480x320/e2e8f0/475569?text=Mission+Bottom",

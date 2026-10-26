@@ -37,29 +37,11 @@ export interface Section45Props {
 
 export const defaultDataSection45: Section45Data = {
   id: "section-uid-45",
-  title: "Student-visa document research checklist",
-  introduction:
-    "This is a general planning checklist, not legal or immigration advice. Requirements vary by applicant and can change, so confirm the current document list through official UK government and institution sources.",
-  documents: [
-    { id: "document-passport", text: "Confirm current passport requirements through official sources" },
-    { id: "document-acceptance", text: "Confirm current admission evidence required for your selected institution" },
-    {
-      id: "document-finance",
-      text: "Confirm current financial-evidence rules, amounts, and accepted documents",
-    },
-    {
-      id: "document-academic",
-      text: "Confirm academic records and translations requested by the institution or authority",
-    },
-    { id: "document-language", text: "Confirm the programme's current language-evidence requirements" },
-    { id: "document-sop", text: "Prepare statements or plans only where the institution or authority requests them" },
-    {
-      id: "document-insurance",
-      text: "Confirm any current health, biometric, insurance, or supporting-evidence requirements",
-    },
-  ],
-  imageUrl: "/images/all-pages-placeholder.png",
-  imageAlt: "Study destination placeholder image",
+  title: "",
+  introduction: "",
+  documents: [],
+  imageUrl: "",
+  imageAlt: "",
   backgroundColor: "#f8f9fb",
   headingColor: "#24349a",
   textColor: "#202641",

@@ -25,36 +25,32 @@ export type HomeData = {
 
 export const defaultCards: HomeCard[] = [
   {
-    title: "IELTS Preparation",
-    description: "Build the skills and confidence to prepare for your target IELTS band online.",
+    title: "Online shopping",
+    description: "Shop online with NexaMart.",
   },
   {
-    title: "Study Abroad Guidance",
-    description: "Plan your university, application, and student-visa journey with clear support.",
+    title: "Serving Bangladesh",
+    description: "NexaMart serves customers across Bangladesh.",
   },
   {
-    title: "Kids Spoken English",
-    description: "Help young learners practise everyday English speaking in a supportive online setting.",
+    title: "Get in touch",
+    description: "Contact NexaMart by phone, WhatsApp, email, or Facebook.",
   },
-  { title: "Online from Anywhere", description: "Learn and receive guidance from anywhere in Bangladesh." },
-  { title: "Practical Resources", description: "Use focused learning materials, practice, and step-by-step guidance." },
-  { title: "Personal Support", description: "Ask questions and get help choosing the right next step for your goal." },
 ];
 
 export const defaultHomeCard: HomeCard = {
-  title: "New program",
-  description: "Add a short description of a NexaMart program or service.",
+  title: "New section",
+  description: "Add confirmed information about NexaMart online shopping.",
 };
 
 export const defaultData: HomeData = {
   forceUpdate: "false",
   paddingX: 0,
   paddingY: 0,
-  eyebrow: "NexaMart (TPC)",
-  title: "Prepare for IELTS, study abroad, and confident English communication.",
-  intro:
-    "NexaMart is an online business platform in Bangladesh for IELTS preparation, study-abroad guidance, and TPC Kids Spoken English.",
+  eyebrow: "NexaMart (NxMart)",
+  title: "Online shopping across Bangladesh.",
+  intro: "NexaMart is an online shopping platform serving customers across Bangladesh.",
   imageUrl: "/images/all-pages-placeholder.png",
-  imageAlt: "NexaMart online services",
+  imageAlt: "NexaMart online shopping",
   sectionsJson: JSON.stringify(defaultCards),
 };

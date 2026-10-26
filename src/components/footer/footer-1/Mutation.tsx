@@ -56,8 +56,9 @@ export default function Mutation({
             <Field label="Brand" value={data.brand} onChange={(value) => setData({ ...data, brand: value })} />
             <Field label="WhatsApp number" value={data.whatsappNumber} onChange={(value) => setData({ ...data, whatsappNumber: value })} />
             <Field label="Phone" value={data.phone} onChange={(value) => setData({ ...data, phone: value })} />
+            <Field label="Email" value={data.email} onChange={(value) => setData({ ...data, email: value })} />
             <Field label="Facebook Page URL" value={data.facebookUrl} onChange={(value) => setData({ ...data, facebookUrl: value })} />
-            <Field label="TPC Kids Group URL" value={data.facebookGroupUrl} onChange={(value) => setData({ ...data, facebookGroupUrl: value })} />
+            <Field label="Facebook Group URL" value={data.facebookGroupUrl} onChange={(value) => setData({ ...data, facebookGroupUrl: value })} />
             <Field
               label="Copyright"
               value={data.copyright}

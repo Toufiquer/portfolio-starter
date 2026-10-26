@@ -27,61 +27,10 @@ export const defaultDataPage4: ISection4Data = {
   paddingX: 0,
   paddingY: 0,
   title: "Privacy Policy",
-  subtitle:
-    "This Privacy Policy explains how NexaMart may collect, use, store, and protect personal information when providing online learning and guidance services.",
+  subtitle: "Privacy details have not been provided by NexaMart.",
   primaryAction: "",
   secondaryAction: "",
-  highlightTitle: "Our privacy commitment",
-  highlightDescription:
-    "We collect only what we need to provide, protect, and improve NexaMart services. We do not sell personal information.",
-  sections: [
-    {
-      eyebrow: "Collection",
-      showEyebrow: true,
-      title: "Information we collect",
-      description:
-        "We may collect information you provide directly and limited technical information generated when you use our website, online learning, or support channels.",
-      items: [
-        "Name, phone number, learning goal, and other details you submit",
-        "Course enquiries, study-abroad details, messages, and support requests",
-        "Basic device, browser, and website-usage information",
-      ],
-    },
-    {
-      eyebrow: "Use",
-      showEyebrow: true,
-      title: "How we use information",
-      description:
-        "We use information to respond to requests, provide online learning and guidance, manage accounts and payments, improve services, and protect NexaMart from misuse or security incidents.",
-      items: [
-        "Provide selected courses, guidance, and learner support",
-        "Send essential service and account communications",
-        "Improve reliability, security, and user experience",
-      ],
-    },
-    {
-      eyebrow: "Protection",
-      showEyebrow: true,
-      title: "How information is protected",
-      description:
-        "We use reasonable organisational and technical safeguards to protect information. Access is limited to people and service providers who need it to perform authorised work.",
-      items: [
-        "Role-based access where practical",
-        "Reasonable security controls and monitoring",
-        "Retention only for as long as needed for service, legal, or operational purposes",
-      ],
-    },
-    {
-      eyebrow: "Sharing and rights",
-      showEyebrow: true,
-      title: "Your choices and requests",
-      description:
-        "We do not sell personal information. We may share limited information with trusted service providers when needed to operate our services or comply with law. You may request access, correction, or deletion of information you have provided.",
-      items: [
-        "Third parties must handle information for authorised purposes",
-        "Some records may need to be retained for legal or accounting reasons",
-        "Contact NexaMart through the official support channel for privacy requests",
-      ],
-    },
-  ],
+  highlightTitle: "Contact NexaMart",
+  highlightDescription: "For privacy questions, contact NexaMart at example@gmail.com or 01711111111.",
+  sections: [],
 };

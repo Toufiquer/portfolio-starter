@@ -94,8 +94,8 @@ export default function Query({ data = defaultData }: { data?: Record<string, st
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700">Online support</p>
             <h2 className="mt-2 text-2xl font-semibold text-stone-900">Connect from anywhere in Bangladesh</h2>
             <p className="mt-3 max-w-md text-sm leading-6 text-stone-600">
-              NexaMart provides IELTS, study-abroad, and TPC Kids Spoken English services online. Call or send a
-              WhatsApp message to get started.
+              NexaMart is an online shopping platform serving customers across Bangladesh. Call or send a WhatsApp
+              message if you have a question.
             </p>
             <a
               className="mt-5 inline-flex rounded-sm bg-lime-200 px-3 py-2 text-sm font-semibold text-lime-950 transition duration-700 hover:bg-lime-300"

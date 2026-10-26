@@ -38,36 +38,11 @@ export interface Section44Props {
 
 export const defaultDataSection44: Section44Data = {
   id: "section-uid-44",
-  title: "United Kingdom Student Visa Requirements",
-  introduction:
-    "This is a general planning checklist, not legal or immigration advice. UK Student visa requirements can change and vary by applicant, so confirm the current requirements through official UK government and institution sources before applying.",
-  requirements: [
-    {
-      id: "requirement-admission",
-      title: "Official Admission:",
-      description:
-        "Confirm the current admission evidence required by your selected institution and the official visa guidance.",
-    },
-    {
-      id: "requirement-finance",
-      title: "Proof of Financial Support:",
-      description:
-        "Confirm the current financial-evidence rules, amounts, timing, and accepted documents through official sources.",
-    },
-    {
-      id: "requirement-language",
-      title: "Language Proficiency:",
-      description: "Confirm your chosen programme's current English-language requirements and accepted evidence.",
-    },
-    {
-      id: "requirement-records",
-      title: "Clear Records & Medicals:",
-      description:
-        "Confirm the current passport, health, biometric, and supporting-document requirements through official sources.",
-    },
-  ],
-  imageUrl: "/images/all-pages-placeholder.png",
-  imageAlt: "Study destination placeholder image",
+  title: "",
+  introduction: "",
+  requirements: [],
+  imageUrl: "",
+  imageAlt: "",
   backgroundColor: "#f8f9fb",
   headingColor: "#24349a",
   textColor: "#202641",

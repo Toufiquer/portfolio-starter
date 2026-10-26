@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface ConsultancyStat {
   id: string;
   value: string;
@@ -136,7 +138,7 @@ export interface VisaConsultancyProps {
 
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 
-export const defaultDataVisaConsultancy: IVisaConsultancyData = {
+const defaultDataVisaConsultancySeed: IVisaConsultancyData = {
   pageUid: "visa-consultancy-uid",
   pageName: "Study Abroad Guidance",
   eyebrow: "Personal study-abroad guidance",
@@ -439,3 +441,6 @@ export const defaultDataVisaConsultancy: IVisaConsultancyData = {
   accentColor: "#0f766e",
   accentDarkColor: "#123047",
 };
+
+
+export const defaultDataVisaConsultancy = neutralizeTemplateData(defaultDataVisaConsultancySeed);

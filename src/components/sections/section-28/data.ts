@@ -31,30 +31,30 @@ export interface Section28Props {
 
 export const defaultDataSection28: Section28Data = {
   id: "section-uid-28",
-  title: "Why Learn with NexaMart?",
-  subtitle: "Focused online learning and practical support for your IELTS goal",
+  title: "NexaMart online shopping",
+  subtitle: "Serving customers across Bangladesh",
   features: [
     {
-      title: "Online Access",
-      description: "Learn from anywhere in Bangladesh without needing to travel.",
+      title: "Online shopping",
+      description: "NexaMart is an online shopping platform.",
       iconName: "Users",
       gradient: "from-blue-500 to-blue-600",
     },
     {
-      title: "Focused Guidance",
-      description: "Build IELTS skills with clear explanations, practice, and helpful direction.",
+      title: "Across Bangladesh",
+      description: "NexaMart serves customers across Bangladesh.",
       iconName: "Award",
       gradient: "from-green-500 to-green-600",
     },
     {
-      title: "Useful Learning Resources",
-      description: "Use practical resources to support your study and improve each IELTS skill.",
+      title: "Contact NexaMart",
+      description: "Reach NexaMart by phone, WhatsApp, email, or Facebook.",
       iconName: "BookOpen",
       gradient: "from-purple-500 to-purple-600",
     },
     {
-      title: "Practice Planning",
-      description: "Ask about available practice resources and feedback before enrolling.",
+      title: "Online platform",
+      description: "Shop online with NexaMart.",
       iconName: "Star",
       gradient: "from-red-500 to-red-600",
     },

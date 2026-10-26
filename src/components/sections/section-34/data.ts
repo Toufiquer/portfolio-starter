@@ -34,33 +34,11 @@ export interface Section34Props {
 export const defaultDataSection34: ISection34Data = {
   id: "section-uid-34",
   pageUid: "section-uid-34",
-  pageName: "TPC Learning Videos",
-  badgeText: "Learn with NexaMart",
-  title: "Helpful Learning Videos",
-  subtitle: "Explore useful IELTS, study-abroad, and spoken-English learning updates from NexaMart.",
-  videos: [
-    {
-      id: 1,
-      label: "IELTS Preparation",
-      sub: "Tips and updates to help you prepare with purpose.",
-      backgroundColor: "#0f172a",
-      link: "",
-    },
-    {
-      id: 2,
-      label: "Study Abroad Guidance",
-      sub: "Practical guidance for planning your international education journey.",
-      backgroundColor: "#172554",
-      link: "",
-    },
-    {
-      id: 3,
-      label: "TPC Kids Spoken English",
-      sub: "Supportive ideas for young English learners and families.",
-      backgroundColor: "#1c1917",
-      link: "",
-    },
-  ],
+  pageName: "NexaMart",
+  badgeText: "Online shopping",
+  title: "NexaMart",
+  subtitle: "Serving customers across Bangladesh.",
+  videos: [],
 };
 export const defaultData = defaultDataSection34;
 export const defaultLayout = { paddingX: 0, paddingY: 0 };

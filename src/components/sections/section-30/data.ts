@@ -37,33 +37,32 @@ export interface Section30Props {
 
 export const defaultDataSection30: Section30Data = {
   id: "section-uid-30",
-  badgeText: "★ Online support",
+  badgeText: "NexaMart",
   headingPrefix: "Online",
-  headingHighlight: "Study Abroad",
-  headingSuffix: "Services",
+  headingHighlight: "Shopping",
+  headingSuffix: "Across Bangladesh",
   features: [
     {
-      title: "Practical Guidance",
-      description: "Get clear online guidance to understand your goals, documents, and practical next steps.",
+      title: "Online shopping",
+      description: "NexaMart is an online shopping platform.",
       iconName: "Users",
     },
     {
-      title: "Clear Process",
-      description:
-        "Understand applications, documents, and preparation steps without promises of admission or visa outcomes.",
+      title: "Service area",
+      description: "NexaMart serves customers across Bangladesh.",
       iconName: "Award",
     },
     {
-      title: "Tailored Solutions",
-      description: "Receive guidance shaped around your destination interests, preparation stage, and academic goals.",
+      title: "Contact NexaMart",
+      description: "Contact us by phone, WhatsApp, email, or Facebook.",
       iconName: "BookOpen",
     },
   ],
-  ctaText: "Request a Consultation",
+  ctaText: "Contact us",
   ctaUrl: "/contact-us",
-  rightCardBadge: "★ Plan your next steps",
-  locationLabel: "Your Location",
-  destinationLabel: "Dream Destination",
+  rightCardBadge: "NexaMart",
+  locationLabel: "Service area",
+  destinationLabel: "Across Bangladesh",
 };
 
 export const defaultLayout = {

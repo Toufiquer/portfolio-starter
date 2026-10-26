@@ -35,35 +35,13 @@ export const defaultData: MenuData = {
   links: [
     { id: "home", label: "Home", url: importPageRoutes.home.path, visible: true, position: 0 },
     {
-      id: "programs",
-      label: "Programs",
-      url: importPageRoutes.ielts.path,
+      id: "shop",
+      label: "Shop",
+      url: importPageRoutes.home.path,
       visible: true,
       position: 1,
-      children: [
-        {
-          id: "ielts",
-          label: "IELTS Preparation",
-          url: importPageRoutes.ielts.path,
-          visible: true,
-          position: 0,
-        },
-        {
-          id: "kids-spoken",
-          label: "Kids Spoken English",
-          url: importPageRoutes.kidsSpokenEnglish.path,
-          visible: true,
-          position: 1,
-        },
-      ],
     },
-    {
-      id: "kids-spoken",
-      label: "Kids Spoken English",
-      url: importPageRoutes.kidsSpokenEnglish.path,
-      visible: true,
-      position: 2,
-    },
+    { id: "about", label: "About", url: importPageRoutes.about.path, visible: true, position: 2 },
     { id: "contact", label: "Contact", url: importPageRoutes.contact.path, visible: true, position: 3 },
   ],
   background: "#ffffff",
@@ -75,7 +53,7 @@ export const defaultData: MenuData = {
   fontFamily: "inherit",
   button: {
     type: "custom",
-    label: "Request a Consultation",
+    label: "Contact us",
     url: importPageRoutes.contact.path,
     icon: "MessageCircle",
     background: "#fbbf24",

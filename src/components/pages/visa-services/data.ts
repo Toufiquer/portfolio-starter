@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface CatalogueStat {
   id: string;
   value: string;
@@ -106,7 +108,7 @@ export interface VisaServicesProps {
 
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 
-export const defaultDataVisaServices: IVisaServicesData = {
+const defaultDataVisaServicesSeed: IVisaServicesData = {
   pageUid: "visa-services-uid",
   pageName: "NexaMart Study Abroad Services",
   eyebrow: "Study abroad support, thoughtfully connected",
@@ -351,3 +353,6 @@ export const defaultDataVisaServices: IVisaServicesData = {
   accentColor: "#e5222a",
   accentDarkColor: "#991b1f",
 };
+
+
+export const defaultDataVisaServices = neutralizeTemplateData(defaultDataVisaServicesSeed);

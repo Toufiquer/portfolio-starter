@@ -25,6 +25,7 @@ export type FooterThreeData = {
   destinations: FooterThreeLink[];
   services: FooterThreeLink[];
   phone: string;
+  email: string;
   whatsappNumber: string;
   facebookUrl: string;
   facebookGroupUrl: string;
@@ -45,31 +46,20 @@ export const defaultData: FooterThreeData = {
   logoAlt: "NexaMart logo",
   showLogo: true,
   brand: "NexaMart",
-  description:
-    "Your online partner for IELTS preparation, study-abroad guidance, and kids' spoken English in Bangladesh.",
+  description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
   disabledPaths: ["/dashboard", "/login", "/forgot-password", "/registration"],
-  destinations: [
-    { id: "uk", label: "United Kingdom", url: importPageRoutes.contact.path, visible: true },
-    { id: "usa", label: "United States", url: importPageRoutes.contact.path, visible: true },
-    { id: "canada", label: "Canada", url: importPageRoutes.contact.path, visible: true },
-    { id: "australia", label: "Australia", url: importPageRoutes.contact.path, visible: true },
-  ],
+  destinations: [{ id: "shop", label: "Browse shopping", url: importPageRoutes.home.path, visible: true }],
   services: [
-    { id: "ielts", label: "IELTS Preparation", url: importPageRoutes.ielts.path, visible: true },
-    { id: "kids-spoken", label: "Kids Spoken English", url: importPageRoutes.kidsSpokenEnglish.path, visible: true },
-    { id: "consultation", label: "Online Consultation", url: importPageRoutes.contact.path, visible: true },
+    { id: "about", label: "About NxMart", url: importPageRoutes.about.path, visible: true },
+    { id: "contact", label: "Contact", url: importPageRoutes.contact.path, visible: true },
   ],
   phone: "01711111111",
+  email: "example@gmail.com",
   whatsappNumber: "01711111111",
-  facebookUrl: "https://www.facebook.com/example/",
+  facebookUrl: "https://www.facebook.com/example",
   facebookGroupUrl: "https://www.facebook.com/groups/example",
   copyright: `All Rights Reserved © ${new Date().getFullYear()} - NexaMart`,
-  legalLinks: [
-    { id: "privacy", label: "Privacy Policy", url: importPageRoutes.privacy.path, visible: true },
-    { id: "terms", label: "Terms & Conditions", url: importPageRoutes.terms.path, visible: true },
-    { id: "refund", label: "Refund Policy", url: importPageRoutes.refund.path, visible: true },
-    { id: "faq", label: "Frequently Asked Questions", url: importPageRoutes.faq.path, visible: true },
-  ],
+  legalLinks: [],
   showLegalBar: true,
   legalBackground: "#000000",
 };

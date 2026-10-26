@@ -85,7 +85,7 @@ const collections: Array<{ key: CollectionKey; label: string; help: string; fiel
   {
     key: "benefits",
     label: "Consultancy benefits",
-    help: "Reasons students and families choose TestPrep Center.",
+    help: "Add confirmed information about NexaMart.",
     fields: [
       { key: "title", label: "Title" },
       { key: "description", label: "Description", multiline: true },

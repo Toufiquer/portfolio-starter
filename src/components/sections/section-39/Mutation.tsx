@@ -91,7 +91,7 @@ const MutationSection39 = ({ data, onChange }: Section39FormProps) => {
             <Plane className="h-6 w-6 text-blue-400" />
           </div>
           <div>
-            <h2 className="text-xl font-bold">Edit Visa Processing Section</h2>
+            <h2 className="text-xl font-bold">Edit Service Introduction</h2>
             <p className="text-sm text-slate-500">Update the content, collage images, and colors.</p>
           </div>
         </header>

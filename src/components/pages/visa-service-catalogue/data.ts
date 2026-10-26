@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface VisaServiceCatalogueItem {
   id: string;
   title: string;
@@ -37,7 +39,7 @@ export interface VisaServiceCatalogueProps {
 
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 
-export const defaultDataVisaServiceCatalogue: IVisaServiceCatalogueData = {
+const defaultDataVisaServiceCatalogueSeed: IVisaServiceCatalogueData = {
   pageUid: "visa-service-catalogue-uid",
   pageName: "NexaMart Study Abroad Support",
   services: [
@@ -82,3 +84,6 @@ export const defaultDataVisaServiceCatalogue: IVisaServiceCatalogueData = {
   textColor: "#526273",
   accentColor: "#0f766e",
 };
+
+
+export const defaultDataVisaServiceCatalogue = neutralizeTemplateData(defaultDataVisaServiceCatalogueSeed);

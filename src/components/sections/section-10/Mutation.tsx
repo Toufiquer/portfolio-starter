@@ -160,7 +160,7 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
                   <User size={28} />
                 </div>
                 <div>
-                  <h3 className="text-base font-semibold text-slate-700">Student Profiles</h3>
+                  <h3 className="text-base font-semibold text-slate-700">Public Stories</h3>
                   <p className="text-slate-500 text-xs mt-1">
                     You have <span className="text-indigo-400 font-bold">{formData.stories.length}</span> stories in the
                     reel.
@@ -263,7 +263,7 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
                         {story.name}
                       </h3>
                       <p className="text-slate-500 text-xs flex items-center gap-1.5 mt-0.5">
-                        <Building2 size={10} /> {story.university || "No University"}
+                        <Building2 size={10} /> {story.university || "No organization provided"}
                       </p>
                     </div>
                   </div>
@@ -294,7 +294,7 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
                         <div>
                           <Label className="text-xs font-medium text-slate-700">Eyebrow visibility</Label>
                           <p className="mt-1 text-xs text-slate-500">
-                            Show or hide this story&apos;s university label.
+                            Show or hide this story&apos;s organization label.
                           </p>
                         </div>
                         <Switch
@@ -307,7 +307,7 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
                       <div className="space-y-5">
                         <div className="space-y-2">
                           <Label className="text-slate-600 text-xs font-medium flex items-center gap-2">
-                            <User size={12} /> Student Name
+                            <User size={12} /> Name
                           </Label>
                           <div className="relative group/input">
                             <Input
@@ -320,14 +320,14 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
                         </div>
                         <div className="space-y-2">
                           <Label className="text-slate-600 text-xs font-medium flex items-center gap-2">
-                            <Building2 size={12} /> University
+                            <Building2 size={12} /> Organization
                           </Label>
                           <div className="relative group/input">
                             <Input
                               value={story.university}
                               onChange={(e) => updateStory(index, "university", e.target.value)}
                               className="bg-white border-slate-200 focus:border-indigo-500 transition-all pl-3"
-                              placeholder="e.g. Harvard University"
+                              placeholder="Optional organization"
                             />
                           </div>
                         </div>
@@ -354,7 +354,7 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
                           {story.image ? (
                             <Image
                               src={story.image}
-                              alt={`${story.name || "Student"} profile preview`}
+                              alt={`${story.name || "Profile"} image preview`}
                               width={320}
                               height={240}
                               loading="eager"
@@ -405,7 +405,7 @@ const MutationSection10 = ({ data, onChange }: Section10FormProps) => {
             updateStory(mediaTarget, "image", url);
             setMediaTarget(null);
           }}
-          title="Choose student profile image"
+          title="Choose profile image"
           description="Select an existing media image or upload a new one."
           uploadLabel="Upload profile image"
         />

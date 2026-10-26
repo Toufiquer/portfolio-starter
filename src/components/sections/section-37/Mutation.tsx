@@ -79,7 +79,7 @@ const MutationSection37 = ({ data, onChange }: Section37FormProps) => {
             <LayoutTemplate className="h-6 w-6 text-red-400" />
           </div>
           <div>
-            <h2 className="text-xl font-bold">Edit Study Abroad Hero</h2>
+            <h2 className="text-xl font-bold">Edit Animated Hero</h2>
             <p className="text-sm text-slate-500">
               Update the Bangla and English content, calls to action, and colors.
             </p>

@@ -132,7 +132,7 @@ const MutationSection44 = ({ data, onChange }: Section44FormProps) => {
           <div>
             <h2 className="text-xl font-bold">Edit United Kingdom Visa Requirements Section</h2>
             <p className="text-sm text-slate-500">
-              Manage the visa introduction, requirements, campus image, and colors.
+              Manage this section&apos;s introduction, information, image, and colors.
             </p>
           </div>
         </header>

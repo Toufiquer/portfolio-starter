@@ -27,7 +27,7 @@ export type TopBannerTwoData = {
 export const defaultData: TopBannerTwoData = {
   variant: "topbanner-2",
   isVisible: true,
-  text: "Learn IELTS, plan your study-abroad journey, and build TPC Kids Spoken English skills online with NexaMart.",
+  text: "Shop online with NexaMart, serving customers across Bangladesh.",
   direction: "left",
   speed: 18,
   background: "#78350f",
@@ -38,12 +38,12 @@ export const defaultData: TopBannerTwoData = {
       id: "facebook",
       title: "Facebook",
       icon: "CiFacebook",
-      url: "https://www.facebook.com/example/",
+      url: "https://www.facebook.com/example",
       visible: true,
     },
     {
       id: "facebook-group",
-      title: "TPC Kids Facebook Group",
+      title: "NexaMart Facebook Group",
       icon: "CiFacebook",
       url: "https://www.facebook.com/groups/example",
       visible: true,

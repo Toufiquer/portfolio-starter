@@ -100,7 +100,7 @@ const MutationSection30 = ({ data, onChange }: Section30FormProps) => {
             <h2 className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-cyan-600 bg-clip-text text-transparent">
               Edit Section 30
             </h2>
-            <p className="text-slate-500 text-sm">Update study abroad services content.</p>
+            <p className="text-slate-500 text-sm">Update this section with confirmed public information.</p>
           </div>
         </div>
 

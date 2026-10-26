@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export const COUNTRY_DIRECTORY_REGIONS = [
   "Asia",
   "Africa",
@@ -229,7 +231,7 @@ const COUNTRY_SEED: Array<[string, string, Region]> = [
   ["Kiribati", "🇰🇮", "Oceania"],
 ];
 
-export const defaultDataCountryDirectory: ICountryDirectoryData = {
+const defaultDataCountryDirectorySeed: ICountryDirectoryData = {
   pageUid: "country-directory-uid",
   pageName: "Global Destinations",
   searchPlaceholder: "Search destinations",
@@ -245,3 +247,6 @@ export const defaultDataCountryDirectory: ICountryDirectoryData = {
     description: getDefaultCountryDescription(name, region),
   })),
 };
+
+
+export const defaultDataCountryDirectory = neutralizeTemplateData(defaultDataCountryDirectorySeed);

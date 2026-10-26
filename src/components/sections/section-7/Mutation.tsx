@@ -388,7 +388,7 @@ const MutationSection7 = ({ data, onChange }: Section7FormProps) => {
                     value={formData.eyebrow}
                     onChange={(e) => updateRootField("eyebrow", e.target.value)}
                     className="border-slate-200 bg-white"
-                    placeholder="Study Abroad Opportunities"
+                    placeholder="Section heading"
                   />
                 </div>
 

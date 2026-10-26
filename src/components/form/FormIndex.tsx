@@ -43,8 +43,8 @@ export const formIndex: Record<FormVariant, Definition> = {
   },
   "form-2": {
     defaultData: two,
-    title: "Callback form",
-    description: "Name, email, phone number, education, address, and message request",
+    title: "Contact request form",
+    description: "Name, email, phone number, optional order or product reference, and message",
     FormField: FormTwo,
     Preview: P2,
     Mutation: M2,

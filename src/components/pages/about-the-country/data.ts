@@ -24,47 +24,11 @@ export const defaultLayout = {
 
 export const defaultDataAboutTheCountry: IAboutTheCountryData = {
   pageUid: "about-the-country-uid",
-  pageName: "Home",
-  eyebrow: "NexaMart (TPC)",
-  title: "Online education support for learners across Bangladesh.",
-  subtitle:
-    "Prepare for IELTS, plan your study-abroad journey, or help your child practise spoken English through accessible online learning and guidance.",
-  primaryAction: "Talk to TPC",
-  secondaryAction: "Explore Programs",
-  sections: [
-    {
-      eyebrow: "IELTS",
-      title: "Prepare with purpose",
-      description: "Build each IELTS skill with structured online learning, practice, and practical guidance.",
-      items: [
-        "Listening, reading, writing, and speaking practice",
-        "Focused feedback and learning resources",
-        "A plan built around your target score",
-      ],
-    },
-    {
-      eyebrow: "Study abroad",
-      title: "Make your next step clearer",
-      description:
-        "Understand destinations, applications, documents, and the preparation needed for your international education goal.",
-      items: ["Destination and course planning", "Application and document guidance", "Clear online consultation"],
-    },
-    {
-      eyebrow: "TPC Kids",
-      title: "Grow everyday speaking confidence",
-      description: "Give young learners a welcoming online space to practise English communication skills.",
-      items: [
-        "Age-appropriate spoken English practice",
-        "Interactive online learning",
-        "Supportive confidence building",
-      ],
-    },
-    {
-      eyebrow: "Online learning",
-      title: "Learn from wherever you are",
-      description:
-        "TPC provides its services online, so learners and families can connect from anywhere in Bangladesh.",
-      items: ["Accessible from home", "Convenient communication", "Guidance when you need it"],
-    },
-  ],
+  pageName: "NexaMart",
+  eyebrow: "Online shopping",
+  title: "NexaMart serves customers across Bangladesh.",
+  subtitle: "NexaMart (NxMart) is an online shopping platform.",
+  primaryAction: "Contact NexaMart",
+  secondaryAction: "Shop online",
+  sections: [],
 };

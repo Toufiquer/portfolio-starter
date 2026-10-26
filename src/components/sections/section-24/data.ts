@@ -35,35 +35,12 @@ export interface Section24Props {
 export const defaultDataSection24: ISection24Data = {
   sectionUid: "section-uid-24",
   features: [
-    {
-      title: "Focused IELTS Practice",
-      subtitle: "Build confidence across the four skills",
-      iconName: "FileText",
-      iconColorClass: "text-red-500",
-      bgColorClass: "bg-red-100",
-    },
-    {
-      title: "Clear Study Plan",
-      subtitle: "Organise practical next steps",
-      iconName: "Clock",
-      iconColorClass: "text-orange-500",
-      bgColorClass: "bg-orange-100",
-    },
-    {
-      title: "Useful Resources",
-      subtitle: "Use materials that support your preparation",
-      iconName: "Target",
-      iconColorClass: "text-green-500",
-      bgColorClass: "bg-green-100",
-    },
+    { title: "Online shopping", subtitle: "Shop online with NexaMart", iconName: "ShoppingBag", iconColorClass: "text-red-500", bgColorClass: "bg-red-100" },
+    { title: "Across Bangladesh", subtitle: "NexaMart serves customers across Bangladesh", iconName: "MapPin", iconColorClass: "text-orange-500", bgColorClass: "bg-orange-100" },
   ],
-  stats: [
-    { value: "Online", label: "Practice support", colorClass: "text-red-500" },
-    { value: "Four", label: "IELTS skills", colorClass: "text-orange-500" },
-    { value: "Clear", label: "Next steps", colorClass: "text-green-500" },
-  ],
-  ctaText: "EXPLORE IELTS PREPARATION",
-  ctaLink: "/ielts-preparation",
+  stats: [],
+  ctaText: "CONTACT NEXAMART",
+  ctaLink: "/contact-us",
 };
 
 export const defaultData = defaultDataSection24;

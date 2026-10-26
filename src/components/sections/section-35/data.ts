@@ -27,7 +27,7 @@ export const defaultDataSection35: Section35Data = {
   id: "section-uid-35",
   pageUid: "section-uid-35",
   pageName: "NexaMart",
-  text: "Talk to NexaMart about IELTS, study abroad, or TPC Kids Spoken English.",
+  text: "Contact NexaMart about online shopping.",
   link: "/contact-us",
   gradientFrom: "#2563eb",
   gradientTo: "#7c3aed",

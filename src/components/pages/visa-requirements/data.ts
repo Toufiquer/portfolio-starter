@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface VisaRequirementSection {
   id: string;
   title: string;
@@ -172,7 +174,7 @@ const country = (
   ],
 });
 
-export const defaultDataVisaRequirements: IVisaRequirementsData = {
+const defaultDataVisaRequirementsSeed: IVisaRequirementsData = {
   pageUid: "visa-requirements-uid",
   pageName: "Student Visa Requirements",
   eyebrow: "Study-abroad planning hub",
@@ -1265,3 +1267,6 @@ export const defaultDataVisaRequirements: IVisaRequirementsData = {
   accentColor: "#EB2229",
   accentDarkColor: "#EC1F29",
 };
+
+
+export const defaultDataVisaRequirements = neutralizeTemplateData(defaultDataVisaRequirementsSeed);

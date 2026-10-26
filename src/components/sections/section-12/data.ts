@@ -34,36 +34,19 @@ export interface Section12Props {
 }
 export const defaultPartner: Omit<IPartner, "id"> = { name: "New partner", logo: "" };
 export const defaultCollabOption: Omit<ICollabOption, "id"> = {
-  title: "New program",
-  description: "Describe this NexaMart program.",
+  title: "New item",
+  description: "Add confirmed information about NexaMart online shopping.",
 };
 export const defaultDataSection12: Section12Data = {
   id: "section-uid-12",
   sectionUid: "section-uid-12",
   paddingX: 0,
   paddingY: 0,
-  badge: "NexaMart Programs",
+  badge: "NexaMart",
   showEyebrow: true,
-  title: "Learn",
-  subTitle: "Online",
-  description:
-    "NexaMart brings practical learning and guidance to learners across Bangladesh through accessible online services.",
+  title: "Online Shopping",
+  subTitle: "Across Bangladesh",
+  description: "NexaMart (NxMart) serves customers across Bangladesh.",
   partners: [],
-  collabOptions: [
-    {
-      id: "ielts",
-      title: "IELTS Preparation",
-      description: "Focused online support for learners preparing to improve their IELTS skills.",
-    },
-    {
-      id: "study-abroad",
-      title: "Study Abroad Guidance",
-      description: "Clear guidance for exploring destinations, applications, and preparation steps.",
-    },
-    {
-      id: "kids",
-      title: "TPC Kids Spoken English",
-      description: "Supportive online spoken-English practice for young learners.",
-    },
-  ],
+  collabOptions: [],
 };

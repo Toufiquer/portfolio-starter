@@ -25,14 +25,9 @@ export interface Section26Props {
 
 export const defaultDataSection26: Section26Data = {
   id: "section-uid-26",
-  title: "Start Your Learning Journey",
-  buttonText: "Explore NexaMart Services",
-  stats: [
-    { value: "Online", label: "Across Bangladesh", iconName: "Users" },
-    { value: "IELTS", label: "Preparation", iconName: "TrendingUp" },
-    { value: "Study", label: "Abroad guidance", iconName: "Award" },
-    { value: "TPC Kids", label: "Spoken English", iconName: "CheckCircle" },
-  ],
+  title: "Online shopping with NexaMart",
+  buttonText: "Contact us",
+  stats: [{ value: "Online", label: "Across Bangladesh", iconName: "Users" }],
 };
 
 export interface Section26Payload extends Section26Data {

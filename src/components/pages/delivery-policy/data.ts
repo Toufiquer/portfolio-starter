@@ -21,6 +21,7 @@ export interface IDeliveryPolicyData {
   helpTitle: string;
   helpDescription: string;
   supportEmail: string;
+  supportPhone: string;
 }
 
 export interface DeliveryPolicyPayload extends IDeliveryPolicyData {
@@ -39,37 +40,14 @@ export const defaultLayout = {
 
 export const defaultDataDeliveryPolicy: IDeliveryPolicyData = {
   pageUid: "delivery-policy-uid",
-  pageName: "Service Delivery Policy",
-  title: "Service Delivery Policy",
-  lastUpdatedLabel: "Last updated: Today",
-  sections: [
-    {
-      title: "1. Service Area",
-      description: "NexaMart provides its learning and guidance services online for learners across Bangladesh.",
-    },
-    {
-      title: "2. Enrolment and service access",
-      items: [
-        "Contact TPC to discuss the program or guidance you need.",
-        "Course schedules, learning access, and consultation steps are shared before you begin.",
-        "Updates are shared through the agreed online contact channel.",
-      ],
-    },
-    {
-      title: "3. Delivery Format",
-      description:
-        "IELTS preparation, study-abroad guidance, and TPC Kids Spoken English are delivered online through the formats confirmed for your selected service.",
-    },
-    {
-      title: "4. Learning and guidance updates",
-      description:
-        "NexaMart shares relevant learning, consultation, and next-step updates through the agreed contact channel.",
-    },
-  ],
-  helpTitle: "Need Help?",
-  helpDescription:
-    "If you have questions about an online course, study-abroad guidance, or service access, contact NexaMart on WhatsApp.",
+  pageName: "NexaMart delivery information",
+  title: "Delivery Information",
+  lastUpdatedLabel: "",
+  sections: [],
+  helpTitle: "Contact NexaMart",
+  helpDescription: "Delivery details have not been provided. Contact NexaMart at example@gmail.com or 01711111111.",
   supportEmail: "example@gmail.com",
+  supportPhone: "01711111111",
 };
 
 export const defaultDeliveryPolicySection: DeliveryPolicySection = {

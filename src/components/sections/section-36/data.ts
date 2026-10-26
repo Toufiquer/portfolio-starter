@@ -34,22 +34,13 @@ export interface Section36Props {
 export const defaultDataSection36: Section36Data = {
   id: "section-uid-36",
   pageUid: "section-uid-36",
-  pageName: "TPC Programs",
+  pageName: "NexaMart",
   cardBackgroundColor: "#ffffff",
   iconBackgroundColor: "#3b82f6",
   iconHoverBackgroundColor: "#2563eb",
   showNavigationButtons: true,
   loop: true,
-  categories: [
-    { id: 1, name: "IELTS Preparation", icon: "briefcase" },
-    { id: 2, name: "Study Abroad", icon: "wheat" },
-    { id: 3, name: "TPC Kids", icon: "sparkles" },
-    { id: 4, name: "Online Learning", icon: "laptop" },
-    { id: 5, name: "Visa Guidance", icon: "plug" },
-    { id: 6, name: "Learning Resources", icon: "heart" },
-    { id: 7, name: "Student Updates", icon: "briefcase" },
-    { id: 8, name: "Contact TPC", icon: "wheat" },
-  ],
+  categories: [],
 };
 export const defaultData = defaultDataSection36;
 export const defaultLayout = { paddingX: 0, paddingY: 0 };

@@ -11,7 +11,7 @@ import { revalidatePath } from "next/cache";
 import { findWhatsAppSettings, saveWhatsAppSettings, type WhatsAppSettings } from "@/lib/models/site-settings";
 
 const defaults = {
-  number: "01786558855",
+  number: "01711111111",
   paddingX: "medium",
   paddingY: "medium",
   marginX: "0",

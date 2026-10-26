@@ -41,25 +41,4 @@ export interface Section15Payload {
 
 export const defaultLayout = { paddingX: 0, paddingY: 0 };
 
-export const defaultDataSection15: OfficeLocation[] = [
-  {
-    sectionUid: "section-uid-15-100",
-    id: "section-uid-15",
-    name: "NexaMart Online Support",
-    type: "Headquarters",
-    address: "Online services available from anywhere in Bangladesh.",
-    city: "Online",
-    country: "Bangladesh",
-    coordinates: { lat: 23.775, lng: 90.39 },
-    contact: {
-      email: "example@gmail.com",
-      phone: "01711111111",
-      manager: "NexaMart Team",
-    },
-    image: "https://i.ibb.co/KpGnqS3D/nature.jpg",
-    description:
-      "NexaMart provides online IELTS preparation, study-abroad guidance, and TPC Kids Spoken English for learners across Bangladesh.",
-    features: ["IELTS Preparation", "Study Abroad Guidance", "TPC Kids Spoken English"],
-    schedule: "Contact us on WhatsApp for online service information.",
-  },
-];
+export const defaultDataSection15: OfficeLocation[] = [];

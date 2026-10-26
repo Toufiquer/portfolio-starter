@@ -77,7 +77,6 @@ const QueryPage5 = ({ data }: Section5Props) => {
             )}
             <h1 className="mt-7 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">{pageData.title}</h1>
             <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">{pageData.subtitle}</p>
-            <p className="mt-7 text-sm font-medium text-slate-500">Last updated: 24 August 2026</p>
           </div>
           <div className="relative min-h-56 overflow-hidden rounded-sm border border-amber-100 bg-white shadow-[0_18px_50px_rgba(120,83,20,0.08)] sm:min-h-72">
             <Image

@@ -39,66 +39,13 @@ export interface Section27Props {
 
 export const defaultDataSection27: Section27Data = {
   id: "section-uid-27",
-  badgeText: "Available Online Across Bangladesh",
-  headingPrefix: "Join Our",
-  headingHighlight: "Online IELTS",
-  headingSuffix: "Programs",
-  subTitle: "Focused learning support for your IELTS goal, wherever you are.",
-  tab1Label: "IELTS Programs",
-  tab2Label: "Online Learning",
-  courses: [
-    {
-      title: "IELTS Foundation",
-      level: "Beginner Level",
-      levelColorClass: "bg-blue-100 text-blue-700",
-      description:
-        "Build strong English foundations and understand the four IELTS skills before moving into focused test preparation.",
-      features: [
-        "Listening, reading, writing, and speaking practice",
-        "Clear learning resources",
-        "Guidance for planning your preparation",
-        "Online access from anywhere",
-      ],
-      duration: "Contact TPC for details",
-      classes: "Online learning support",
-      price: "Contact TPC",
-      popular: false,
-    },
-    {
-      title: "IELTS Skills Focus",
-      level: "Intermediate Level",
-      levelColorClass: "bg-green-100 text-green-700",
-      description:
-        "Develop IELTS-specific skills with practice and focused guidance for learners who already have a basic English foundation.",
-      features: [
-        "Targeted skill practice",
-        "Speaking and writing guidance",
-        "Useful preparation resources",
-        "Online support",
-      ],
-      duration: "Contact TPC for details",
-      classes: "Online learning support",
-      price: "Contact TPC",
-      popular: true,
-    },
-    {
-      title: "IELTS Intensive Preparation",
-      level: "Focused Preparation",
-      levelColorClass: "bg-red-100 text-red-700",
-      description:
-        "A focused option for learners who want to organise their IELTS preparation and strengthen their approach before the test.",
-      features: [
-        "Practical test strategies",
-        "Focused practice sessions",
-        "Speaking preparation",
-        "Clear next-step guidance",
-      ],
-      duration: "Contact TPC for details",
-      classes: "Online learning support",
-      price: "Contact TPC",
-      popular: false,
-      schedule: ["Online — schedule shared by NexaMart"],
-    },
-  ],
+  badgeText: "NexaMart",
+  headingPrefix: "Online",
+  headingHighlight: "Shopping",
+  headingSuffix: "Across Bangladesh",
+  subTitle: "NexaMart is an online shopping platform serving customers across Bangladesh.",
+  tab1Label: "Shopping",
+  tab2Label: "Contact",
+  courses: [],
 };
 export const defaultLayout = { paddingX: 0, paddingY: 0 };

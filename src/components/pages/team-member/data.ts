@@ -6,6 +6,8 @@
 |-----------------------------------------
 */
 
+import { neutralizeTemplateData } from "../shared/neutralize-template-data";
+
 export interface TeamMember {
   id: string;
   name: string;
@@ -56,22 +58,24 @@ export const defaultLayout = {
   paddingY: 0,
 };
 
-export const defaultDataPage8: IPage8Data = {
+const defaultDataPage8Seed: IPage8Data = {
   pageUid: "page-uid-tema-member",
   pageName: "Team",
   eyebrow: "NexaMart",
   showEyebrow: true,
-  title: "Meet the NexaMart team",
-  description:
-    "A learner-focused team providing online IELTS preparation, study-abroad guidance, and TPC Kids Spoken English support across Bangladesh.",
-  founderLabel: "NexaMart Team",
+  title: "NexaMart",
+  description: "Team information has not been provided.",
+  founderLabel: "",
   showFounderLabel: true,
   ceo: {
     id: "ceo",
-    name: "NexaMart Team",
-    title: "Online Service Team",
-    bio: "Provides practical online services and guidance from anywhere in Bangladesh.",
+    name: "",
+    title: "",
+    bio: "",
     image: "",
   },
   rows: [],
 };
+
+
+export const defaultDataPage8 = neutralizeTemplateData(defaultDataPage8Seed);

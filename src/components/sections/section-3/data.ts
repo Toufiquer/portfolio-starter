@@ -8,9 +8,8 @@
 
 export const defaultDataSection3 = {
   id: "section-uid-3",
-  heading: "Your next learning step starts here.",
-  description:
-    "Choose focused online support for IELTS, study-abroad planning, or TPC Kids Spoken English with NexaMart.",
+  heading: "Shop online with NexaMart.",
+  description: "NexaMart serves customers across Bangladesh.",
   paddingX: "0",
   paddingY: "0",
 };
