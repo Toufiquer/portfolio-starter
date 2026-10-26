@@ -27,71 +27,13 @@ interface TeamRow {
 
 const ceo: TeamMember = {
   id: "ceo",
-  name: "Tanvir Ahmed",
-  title: "Founder & CEO",
-  bio: "Leads TestPrep Center with a clear vision: making international education guidance personal, reliable, and accessible.",
-  image: "https://i.pravatar.cc/600?img=13",
+  name: "",
+  title: "",
+  bio: "",
+  image: "",
 };
 
-const rows: TeamRow[] = [
-  {
-    label: "Leadership",
-    members: [
-      {
-        id: "creative-director",
-        name: "Nusrat Jahan",
-        title: "Creative Director",
-        bio: "Guides the team and helps every student receive thoughtful support throughout the application journey.",
-        image: "https://i.pravatar.cc/500?img=47",
-      },
-      {
-        id: "lead-developer",
-        name: "Rakibul Hasan",
-        title: "Lead Developer",
-        bio: "Builds the fast, reliable web platforms our clients run their business on.",
-        image: "https://i.pravatar.cc/500?img=68",
-      },
-    ],
-  },
-  {
-    label: "Growth",
-    members: [
-      {
-        id: "marketing-lead",
-        name: "Farhana Islam",
-        title: "Marketing Lead",
-        bio: "Turns ad budgets into measurable growth across Meta, Google, and TikTok.",
-        image: "https://i.pravatar.cc/500?img=32",
-      },
-      {
-        id: "content-strategist",
-        name: "Shahriar Kabir",
-        title: "Content Strategist",
-        bio: "Writes and plans the content calendars that keep client audiences engaged weekly.",
-        image: "https://i.pravatar.cc/500?img=51",
-      },
-    ],
-  },
-  {
-    label: "Product",
-    members: [
-      {
-        id: "ui-ux-designer",
-        name: "Mim Akter",
-        title: "UI/UX Designer",
-        bio: "Designs interfaces that feel effortless, tested with real users before every launch.",
-        image: "https://i.pravatar.cc/500?img=25",
-      },
-      {
-        id: "client-success",
-        name: "Imran Chowdhury",
-        title: "Client Success Manager",
-        bio: "The steady voice clients call first, from onboarding through every project milestone.",
-        image: "https://i.pravatar.cc/500?img=60",
-      },
-    ],
-  },
-];
+const rows: TeamRow[] = [];
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 48 },
@@ -231,7 +173,7 @@ export default function TeamPage() {
           transition={{ duration: 0.6 }}
           className="mb-4 inline-block rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-white/50"
         >
-          TestPrep Center
+          NexaMart
         </motion.span>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
@@ -239,7 +181,7 @@ export default function TeamPage() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="bg-gradient-to-b from-white to-white/60 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl"
         >
-          The people behind the buzz
+          Team page template
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 24 }}
@@ -247,14 +189,14 @@ export default function TeamPage() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mx-auto mt-4 max-w-lg text-white/55"
         >
-          Seven people, three disciplines, one goal: turning Bangladeshi businesses into brands worth talking about.
+          Add confirmed team information before publishing this page.
         </motion.p>
       </motion.header>
 
       <section className="relative mx-auto max-w-6xl px-6">
         <ConnectorCurve />
 
-        <CeoCard member={ceo} />
+        {ceo.name ? <CeoCard member={ceo} /> : null}
 
         {rows.map((row) => (
           <div key={row.label}>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title">
+  <title id="title">NexaMart</title>
+  <rect width="800" height="800" fill="#fff" />
+  <g fill="none" stroke="#b58e55" stroke-linecap="round" stroke-linejoin="round" stroke-width="24">
+    <path d="M295 278v-45a105 105 0 0 1 210 0v45" />
+    <path d="M232 278h336l30 272a42 42 0 0 1-42 47H244a42 42 0 0 1-42-47z" fill="#fffaf0" />
+  </g>
+  <path d="M300 350v176l200-176v176" fill="none" stroke="#292524" stroke-linecap="round" stroke-linejoin="round" stroke-width="30" />
+  <text x="400" y="675" fill="#292524" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" letter-spacing="-4" text-anchor="middle">NexaMart</text>
+</svg>

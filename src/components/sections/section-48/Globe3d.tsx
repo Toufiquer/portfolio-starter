@@ -32,42 +32,6 @@ export const CITIES: Record<string, CountryPoint> = {
     lng: 90.4125,
     color: "#06b6d4", // Cyan
   },
-  CANADA: {
-    id: "CANADA",
-    name: "CANADA",
-    fullName: "Canada",
-    flag: "🇨🇦",
-    lat: 56.1304,
-    lng: -106.3468,
-    color: "#f59e0b", // Amber
-  },
-  USA: {
-    id: "USA",
-    name: "USA",
-    fullName: "United States",
-    flag: "🇺🇸",
-    lat: 39.8283,
-    lng: -98.5795,
-    color: "#f59e0b",
-  },
-  UK: {
-    id: "UK",
-    name: "UK",
-    fullName: "UK (London)",
-    flag: "🇬🇧",
-    lat: 51.5074,
-    lng: -0.1278,
-    color: "#f59e0b",
-  },
-  AUSTRALIA: {
-    id: "AUSTRALIA",
-    name: "AUSTRALIA",
-    fullName: "Australia (Sydney)",
-    flag: "🇦🇺",
-    lat: -33.8688,
-    lng: 151.2093,
-    color: "#f59e0b",
-  },
 };
 
 // Helper: Convert Lat/Lng to 3D Cartesian Coordinates on Sphere of radius R
@@ -711,7 +675,7 @@ export default function Globe3D({
 
     // 6. Add Country 3D Markers & Arcs
     const bd = CITIES.BANGLADESH;
-    const destinations = [CITIES.CANADA, CITIES.USA, CITIES.UK, CITIES.AUSTRALIA];
+    const destinations: CountryPoint[] = [];
 
     // Marker Material
     const bdPos = latLngToVector3(bd.lat, bd.lng, GLOBE_RADIUS, 0.1);

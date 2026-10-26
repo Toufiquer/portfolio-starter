@@ -8,7 +8,7 @@
 
 /*
 |-----------------------------------------
-| Study Abroad experience hero renderer for Section 37
+| NexaMart online shopping hero renderer for Section 37
 |-----------------------------------------
 */
 

@@ -127,8 +127,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-9": {
     defaultData: sectionDefaultsByVariant["section-9"],
-    title: "Success stories intro",
-    description: "A focused introduction for testimonials and success stories",
+    title: "Section introduction",
+    description: "A focused introduction with editable heading and supporting text",
     Mutation: mutationRegistry["section-9"],
   },
   "section-10": {
@@ -145,8 +145,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-12": {
     defaultData: sectionDefaultsByVariant["section-12"],
-    title: "Partnership network section",
-    description: "Partners and collaboration options",
+    title: "Logo gallery section",
+    description: "An editable logo gallery for confirmed brands or organizations",
     Mutation: mutationRegistry["section-12"],
   },
   "section-13": {
@@ -241,8 +241,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-28": {
     defaultData: sectionDefaultsByVariant["section-28"],
-    title: "Class benefits section",
-    description: "Why choose our classes feature grid with configurable highlights",
+    title: "Feature benefits section",
+    description: "A configurable feature grid for confirmed company information",
     Mutation: mutationRegistry["section-28"],
   },
   "section-29": {
@@ -253,8 +253,8 @@ export const sectionIndex: Record<SectionVariant, Definition> = {
   },
   "section-30": {
     defaultData: sectionDefaultsByVariant["section-30"],
-    title: "Service cards section",
-    description: "Service highlights with guidance CTA and destination illustration",
+    title: "Online shopping introduction",
+    description: "NexaMart overview with confirmed contact details and service area",
     Mutation: mutationRegistry["section-30"],
   },
   "section-31": {

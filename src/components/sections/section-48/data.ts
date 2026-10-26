@@ -25,7 +25,7 @@ export const defaultLayout = { paddingX: 0, paddingY: 0 };
 export const defaultDataSection48: Section48Data = {
   id: "section-uid-48",
   banglaFirstLine: "NexaMart (NxMart)",
-  banglaSecondLine: "Online shopping across Bangladesh.",
+  banglaSecondLine: "বাংলাদেশজুড়ে অনলাইন শপিং।",
   stampValue: "NxMart",
   stampText: "ONLINE SHOPPING • NEXAMART • BANGLADESH •",
 };

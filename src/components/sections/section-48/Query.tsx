@@ -139,7 +139,7 @@ export function TextDemoHero({
   const [consultationForm, setConsultationForm] = useState({
     fullName: "",
     mobileWhatsApp: "",
-    studyDestination: "",
+    shoppingQuestion: "",
   });
   const [showDemoModal, setShowDemoModal] = useState(false);
   const reduceMotion = useReducedMotion();
@@ -349,7 +349,7 @@ export function TextDemoHero({
               <div className="mb-4 flex items-center justify-between gap-3">
                 <div>
                   <p className="text-sm font-black text-slate-950">Contact NexaMart</p>
-                  <p className="mt-0.5 text-xs text-slate-500">Ask us about online shopping.</p>
+                  <p className="mt-0.5 text-xs text-slate-500">Call or message NexaMart with your question.</p>
                 </div>
                 <span className="grid h-10 w-10 place-items-center rounded-full bg-[#cf0a2c]/10 text-[#cf0a2c]">
                   <Send className="h-4 w-4" />
@@ -396,9 +396,9 @@ export function TextDemoHero({
                     required
                     type="text"
                     placeholder="Your question"
-                    value={consultationForm.studyDestination}
+                    value={consultationForm.shoppingQuestion}
                     onChange={(event) =>
-                      setConsultationForm((current) => ({ ...current, studyDestination: event.target.value }))
+                      setConsultationForm((current) => ({ ...current, shoppingQuestion: event.target.value }))
                     }
                     className="h-12 w-full rounded-sm border border-slate-200 bg-white pl-10 pr-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-[#cf0a2c] focus:ring-2 focus:ring-[#cf0a2c]/10"
                   />
@@ -441,7 +441,7 @@ export function TextDemoHero({
                   </div>
                   <div className="mt-5 rounded-sm bg-amber-50 p-3 text-xs text-amber-900">
                     {consultationForm.fullName || "Name"} · {consultationForm.mobileWhatsApp || "Mobile number"} ·{" "}
-                    {consultationForm.studyDestination || "Your question"}
+                    {consultationForm.shoppingQuestion || "Your question"}
                   </div>
                   <button
                     type="button"

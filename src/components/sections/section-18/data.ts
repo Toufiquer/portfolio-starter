@@ -39,7 +39,7 @@ export const defaultDataSection18: Section18Data = {
   slides: [
     {
       id: "nexamart",
-      image: "/images/section-18/ecommerce-collection-hero.png",
+      image: "/images/section-18/online-shopping-illustration.svg",
       title: "Online shopping with NexaMart.",
       description: "NexaMart serves customers across Bangladesh.",
       buttonText: "Contact us",

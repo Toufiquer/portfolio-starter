@@ -42,33 +42,25 @@ export const defaultDataCompanyStory: ICompanyStoryData = {
   secondaryAction: "Contact NexaMart",
   sections: [
     {
-      eyebrow: "Story",
+      eyebrow: "About NexaMart",
       showEyebrow: true,
       title: "Who we are",
-      description:
-        "NexaMart provides online shopping for customers across Bangladesh.",
-      items: ["Online shopping", "Service across Bangladesh", "NexaMart contact channels"],
-    },
-    {
-      eyebrow: "Mission",
-      showEyebrow: true,
-      title: "Online shopping across Bangladesh",
       description: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
-      items: ["Shop online with NexaMart", "Contact NexaMart by phone or WhatsApp", "Connect through Facebook"],
-    },
-    {
-      eyebrow: "Values",
-      showEyebrow: true,
-      title: "NexaMart",
-      description: "Shop online with NexaMart.",
       items: ["Online shopping", "Across Bangladesh", "Contact NexaMart"],
     },
     {
-      eyebrow: "Experience",
+      eyebrow: "Online shopping",
       showEyebrow: true,
-      title: "Online shopping with NexaMart",
+      title: "Shop online with NexaMart",
       description: "NexaMart is an online shopping platform serving customers across Bangladesh.",
-      items: ["Online shopping", "Across Bangladesh", "Contact by phone, WhatsApp, email, or Facebook"],
+      items: ["Online shopping", "Service area: Across Bangladesh"],
+    },
+    {
+      eyebrow: "Contact",
+      showEyebrow: true,
+      title: "Questions about NexaMart?",
+      description: "Contact NexaMart by phone, WhatsApp, email, or Facebook.",
+      items: ["01711111111", "example@gmail.com", "Facebook page and group"],
     },
   ],
 };

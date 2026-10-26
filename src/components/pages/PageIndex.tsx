@@ -228,8 +228,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "leadership-team": {
     defaultData: leadershipTeam as unknown as AllPageData,
-    title: "Leadership Team",
-    description: "An animated leadership and team-members page",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; no team information is published by default.",
     Mutation: ({ data, onChange }) => (
       <LeadershipTeamMutation
         data={data as unknown as typeof leadershipTeam}
@@ -381,8 +381,8 @@ export const pageIndex: Record<AllPageKind, Definition> = {
   },
   "all-team-member": {
     defaultData: teamMember as unknown as AllPageData,
-    title: "Team Members",
-    description: "A visual page for your leadership and team members",
+    title: "Reusable Page Template",
+    description: "Reusable layout retained for future use; add confirmed company information before publishing.",
     Mutation: ({ data, onChange }) => (
       <TeamMemberMutation
         data={data as unknown as typeof teamMember}

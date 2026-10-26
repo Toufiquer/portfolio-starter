@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-labelledby="title desc">
+  <title id="title">NexaMart online shopping</title>
+  <desc id="desc">An abstract shopping bag and parcel illustration in NexaMart's neutral brand colors.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffaf0" />
+      <stop offset="1" stop-color="#eee0ca" />
+    </linearGradient>
+    <linearGradient id="shopping-bag" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d1aa72" />
+      <stop offset="1" stop-color="#a67942" />
+    </linearGradient>
+  </defs>
+  <rect width="1536" height="1024" fill="url(#background)" />
+  <circle cx="1190" cy="190" r="250" fill="#ead8bd" opacity=".5" />
+  <circle cx="280" cy="800" r="340" fill="#fff" opacity=".55" />
+  <g transform="translate(590 155)">
+    <path d="M180 200v-70a120 120 0 0 1 240 0v70" fill="none" stroke="#8f6535" stroke-linecap="round" stroke-width="25" />
+    <path d="M90 200h420l40 460a52 52 0 0 1-52 57H102a52 52 0 0 1-52-57z" fill="url(#shopping-bag)" />
+    <path d="m166 318 134 120 134-120v190H166z" fill="#fffaf0" />
+    <path d="M166 318v190l134-70 134 70V318L300 438z" fill="#ead8bd" />
+    <path d="m300 438 134-120v190l-134-70z" fill="#d6b98f" />
+  </g>
+  <g transform="translate(250 580)">
+    <path d="M0 90h220v190H0z" fill="#c89d62" />
+    <path d="m0 90 110-62 110 62-110 64z" fill="#dfc39b" />
+    <path d="M110 154v126" stroke="#fffaf0" stroke-width="18" />
+  </g>
+  <g transform="translate(1110 630)">
+    <path d="M0 64h190v160H0z" fill="#e5d0b1" />
+    <path d="m0 64 95-56 95 56-95 56z" fill="#f5ead9" />
+    <path d="M95 120v104" stroke="#b58e55" stroke-width="16" />
+  </g>
+</svg>

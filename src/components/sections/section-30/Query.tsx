@@ -18,17 +18,17 @@ import { defaultDataSection30, Section30Data, Section30Payload, Section30Props }
 const sectionIconMap: { [key: string]: React.ElementType } = {
   Users: iconMap.Users,
   Award: iconMap.Award,
-  BookOpen: iconMap.FileText,
-  Plane: iconMap.Navigation,
-  Globe: iconMap.Globe,
+  BookOpen: iconMap.MessageCircle,
+  Plane: iconMap.ShoppingCart,
+  Globe: iconMap.MapPin,
   Zap: iconMap.Zap,
   CheckCircle: iconMap.Check,
 };
 const HelpCircle = iconMap.HelpCircle;
 const MapPin = iconMap.MapPin;
 const Phone = iconMap.Phone;
-const Globe = iconMap.Globe;
-const Plane = iconMap.Navigation;
+const Globe = iconMap.MapPin;
+const ShoppingCart = iconMap.ShoppingCart;
 const Award = iconMap.Award;
 const BookOpen = iconMap.FileText;
 
@@ -115,7 +115,7 @@ const QuerySection30 = ({ data }: Section30Props) => {
                 <Globe className="w-32 h-32 text-gray-900" />
               </div>
               <div className="absolute bottom-4 left-4 opacity-5">
-                <Plane className="w-32 h-32 text-gray-900 transform rotate-45" />
+                <ShoppingCart className="w-32 h-32 text-gray-900 transform rotate-45" />
               </div>
 
               <div className="relative z-10 flex flex-col h-full">
@@ -141,16 +141,16 @@ const QuerySection30 = ({ data }: Section30Props) => {
 
                   <div className="relative inline-block z-10">
                     <div className="w-24 h-24 rounded-full bg-gradient-to-b from-orange-400 to-red-500 flex items-center justify-center shadow-xl border-4 border-white mb-4 mx-auto relative">
-                      <span className="text-4xl" role="img" aria-label="Student">
-                        👨‍🎓
+                      <span className="grid h-16 w-16 place-items-center rounded-full bg-white text-amber-900" role="img" aria-label="Online shopping">
+                        <ShoppingCart className="h-9 w-9" />
                       </span>
                       <div className="absolute -top-2 -right-4 bg-orange-500 rounded-full p-2 shadow-md transform rotate-12 animate-pulse">
-                        <Plane className="w-5 h-5 text-white" />
+                        <Award className="w-5 h-5 text-white" />
                       </div>
                     </div>
 
                     <div className="bg-amber-800 text-white rounded-sm px-3 py-2 shadow-lg transform -rotate-6 inline-block hover:rotate-0 transition-transform cursor-pointer border-2 border-amber-900/20">
-                      <div className="text-[10px] font-bold opacity-70 mb-0.5">PASSPORT</div>
+                      <div className="text-[10px] font-bold opacity-70 mb-0.5">NEXAMART</div>
                       <Globe className="w-6 h-6 mx-auto" />
                     </div>
                   </div>
